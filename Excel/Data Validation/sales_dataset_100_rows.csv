@@ -1,0 +1,101 @@
+Sale_ID,Sale_Date,Customer_ID,Product_Name,Category,Region,Quantity,Unit_Price,Discount_Percent,Discount_Amount,Total_Amount,Payment_Method
+S0001,2024-05-05,C015,Mobile,Electronics,South,1,20000,10,2000.0,18000.0,Cash
+S0002,2024-01-17,C002,Mobile,Electronics,North,10,20000,15,30000.0,170000.0,Credit Card
+S0003,2024-10-14,C013,Office Chair,Furniture,West,9,7000,0,0.0,63000.0,Credit Card
+S0004,2024-01-04,C049,Tablet,Electronics,South,10,25000,10,25000.0,225000.0,Net Banking
+S0005,2024-04-20,C049,Monitor,Electronics,East,5,15000,5,3750.0,71250.0,Cash
+S0006,2024-07-02,C023,Mobile,Electronics,East,7,20000,0,0.0,140000.0,Cash
+S0007,2024-07-12,C006,Tablet,Electronics,East,9,25000,0,0.0,225000.0,UPI
+S0008,2024-12-04,C015,Office Chair,Furniture,East,2,7000,0,0.0,14000.0,Cash
+S0009,2024-05-22,C030,Office Chair,Furniture,East,2,7000,15,2100.0,11900.0,Credit Card
+S0010,2024-12-09,C018,Monitor,Electronics,North,6,15000,5,4500.0,85500.0,Credit Card
+S0011,2024-07-13,C018,Office Chair,Furniture,South,3,7000,15,3150.0,17850.0,UPI
+S0012,2024-06-10,C026,Laptop,Electronics,East,4,50000,0,0.0,200000.0,Cash
+S0013,2024-04-18,C042,Office Chair,Furniture,West,10,7000,10,7000.0,63000.0,Net Banking
+S0014,2024-03-12,C016,Tablet,Electronics,East,3,25000,10,7500.0,67500.0,Net Banking
+S0015,2024-03-11,C033,Printer,Electronics,West,6,10000,5,3000.0,57000.0,Cash
+S0016,2024-11-17,C011,Laptop,Electronics,West,2,50000,5,5000.0,95000.0,Cash
+S0017,2024-09-27,C017,Printer,Electronics,North,7,10000,15,10500.0,59500.0,Cash
+S0018,2024-05-30,C028,Desk,Furniture,South,6,12000,0,0.0,72000.0,Net Banking
+S0019,2024-09-16,C007,Laptop,Electronics,East,5,50000,5,12500.0,237500.0,Credit Card
+S0020,2024-10-03,C050,Headphones,Accessories,North,6,2000,5,600.0,11400.0,UPI
+S0021,2024-07-04,C020,Tablet,Electronics,South,1,25000,0,0.0,25000.0,Cash
+S0022,2024-02-13,C047,Office Chair,Furniture,West,10,7000,0,0.0,70000.0,Cash
+S0023,2024-10-08,C011,Headphones,Accessories,East,3,2000,15,900.0,5100.0,Net Banking
+S0024,2024-12-31,C020,Office Chair,Furniture,West,9,7000,5,3150.0,59850.0,UPI
+S0025,2024-03-02,C016,Tablet,Electronics,South,9,25000,15,33750.0,191250.0,Cash
+S0026,2024-10-28,C015,Monitor,Electronics,North,1,15000,5,750.0,14250.0,Cash
+S0027,2024-01-17,C022,Laptop,Electronics,North,4,50000,0,0.0,200000.0,Credit Card
+S0028,2024-10-03,C009,Desk,Furniture,West,8,12000,5,4800.0,91200.0,Credit Card
+S0029,2024-02-18,C007,Tablet,Electronics,West,7,25000,5,8750.0,166250.0,UPI
+S0030,2024-01-28,C044,Printer,Electronics,North,7,10000,15,10500.0,59500.0,Cash
+S0031,2024-05-07,C013,Printer,Electronics,South,6,10000,0,0.0,60000.0,Net Banking
+S0032,2024-05-22,C030,Headphones,Accessories,South,7,2000,5,700.0,13300.0,Cash
+S0033,2024-01-26,C042,Tablet,Electronics,North,9,25000,0,0.0,225000.0,Cash
+S0034,2024-09-05,C031,Office Chair,Furniture,South,3,7000,15,3150.0,17850.0,Net Banking
+S0035,2024-01-02,C025,Laptop,Electronics,East,3,50000,15,22500.0,127500.0,Net Banking
+S0036,2024-03-20,C013,Desk,Furniture,East,7,12000,15,12600.0,71400.0,Credit Card
+S0037,2024-06-09,C004,Laptop,Electronics,North,10,50000,0,0.0,500000.0,Net Banking
+S0038,2024-04-05,C005,Headphones,Accessories,North,1,2000,0,0.0,2000.0,Credit Card
+S0039,2024-10-23,C039,Printer,Electronics,North,2,10000,5,1000.0,19000.0,Cash
+S0040,2024-05-13,C014,Printer,Electronics,East,10,10000,10,10000.0,90000.0,Credit Card
+S0041,2024-12-09,C042,Desk,Furniture,East,7,12000,5,4200.0,79800.0,Net Banking
+S0042,2024-08-22,C040,Monitor,Electronics,North,2,15000,0,0.0,30000.0,Cash
+S0043,2024-03-08,C023,Office Chair,Furniture,North,9,7000,10,6300.0,56700.0,Credit Card
+S0044,2024-08-12,C035,Monitor,Electronics,East,5,15000,5,3750.0,71250.0,Cash
+S0045,2024-05-15,C008,Desk,Furniture,North,2,12000,5,1200.0,22800.0,Credit Card
+S0046,2024-06-24,C014,Desk,Furniture,East,5,12000,5,3000.0,57000.0,Net Banking
+S0047,2024-11-20,C028,Desk,Furniture,East,1,12000,0,0.0,12000.0,Cash
+S0048,2024-11-22,C017,Laptop,Electronics,South,6,50000,5,15000.0,285000.0,Net Banking
+S0049,2024-02-27,C005,Printer,Electronics,South,9,10000,0,0.0,90000.0,Cash
+S0050,2024-08-08,C009,Monitor,Electronics,North,10,15000,5,7500.0,142500.0,UPI
+S0051,2024-04-17,C044,Monitor,Electronics,South,1,15000,10,1500.0,13500.0,Cash
+S0052,2024-11-13,C048,Monitor,Electronics,South,9,15000,15,20250.0,114750.0,Credit Card
+S0053,2024-01-13,C012,Headphones,Accessories,East,3,2000,15,900.0,5100.0,Net Banking
+S0054,2024-12-25,C007,Office Chair,Furniture,West,5,7000,5,1750.0,33250.0,Cash
+S0055,2024-08-23,C023,Tablet,Electronics,East,4,25000,5,5000.0,95000.0,Credit Card
+S0056,2024-07-23,C022,Office Chair,Furniture,East,1,7000,5,350.0,6650.0,Cash
+S0057,2024-12-13,C035,Desk,Furniture,East,6,12000,15,10800.0,61200.0,Cash
+S0058,2024-10-24,C017,Mobile,Electronics,North,5,20000,5,5000.0,95000.0,Cash
+S0059,2024-08-11,C039,Printer,Electronics,North,6,10000,10,6000.0,54000.0,Net Banking
+S0060,2024-12-28,C028,Office Chair,Furniture,North,5,7000,0,0.0,35000.0,Credit Card
+S0061,2024-12-06,C022,Monitor,Electronics,East,7,15000,0,0.0,105000.0,Cash
+S0062,2024-12-07,C027,Desk,Furniture,East,9,12000,10,10800.0,97200.0,Net Banking
+S0063,2024-04-08,C027,Desk,Furniture,West,9,12000,5,5400.0,102600.0,Credit Card
+S0064,2024-06-04,C019,Desk,Furniture,South,7,12000,0,0.0,84000.0,Net Banking
+S0065,2024-08-14,C044,Monitor,Electronics,South,8,15000,15,18000.0,102000.0,Net Banking
+S0066,2024-09-20,C043,Headphones,Accessories,East,2,2000,10,400.0,3600.0,Cash
+S0067,2024-04-11,C010,Office Chair,Furniture,North,5,7000,5,1750.0,33250.0,Cash
+S0068,2024-08-21,C027,Office Chair,Furniture,South,8,7000,0,0.0,56000.0,Net Banking
+S0069,2024-03-16,C042,Tablet,Electronics,North,7,25000,5,8750.0,166250.0,Cash
+S0070,2024-12-22,C034,Printer,Electronics,West,4,10000,5,2000.0,38000.0,Cash
+S0071,2024-03-09,C030,Office Chair,Furniture,East,2,7000,15,2100.0,11900.0,Net Banking
+S0072,2024-03-22,C048,Printer,Electronics,West,9,10000,15,13500.0,76500.0,Net Banking
+S0073,2024-09-23,C032,Desk,Furniture,South,4,12000,10,4800.0,43200.0,UPI
+S0074,2024-04-30,C018,Tablet,Electronics,East,2,25000,10,5000.0,45000.0,UPI
+S0075,2024-04-28,C025,Mobile,Electronics,South,3,20000,5,3000.0,57000.0,Credit Card
+S0076,2024-06-18,C035,Mobile,Electronics,West,7,20000,15,21000.0,119000.0,Net Banking
+S0077,2024-07-18,C050,Laptop,Electronics,North,4,50000,15,30000.0,170000.0,Net Banking
+S0078,2024-06-01,C049,Tablet,Electronics,West,1,25000,10,2500.0,22500.0,Net Banking
+S0079,2024-05-19,C028,Office Chair,Furniture,West,8,7000,5,2800.0,53200.0,Cash
+S0080,2024-03-25,C030,Printer,Electronics,South,6,10000,15,9000.0,51000.0,Cash
+S0081,2024-02-12,C042,Printer,Electronics,West,10,10000,0,0.0,100000.0,Credit Card
+S0082,2024-05-13,C025,Tablet,Electronics,East,3,25000,0,0.0,75000.0,Credit Card
+S0083,2024-07-13,C018,Tablet,Electronics,West,6,25000,10,15000.0,135000.0,UPI
+S0084,2024-10-03,C004,Mobile,Electronics,East,8,20000,0,0.0,160000.0,Credit Card
+S0085,2024-05-06,C013,Mobile,Electronics,North,1,20000,0,0.0,20000.0,Credit Card
+S0086,2024-12-08,C008,Office Chair,Furniture,South,3,7000,15,3150.0,17850.0,Net Banking
+S0087,2024-11-06,C039,Desk,Furniture,North,6,12000,5,3600.0,68400.0,Credit Card
+S0088,2024-06-08,C037,Desk,Furniture,West,2,12000,0,0.0,24000.0,Net Banking
+S0089,2024-02-22,C045,Office Chair,Furniture,East,2,7000,5,700.0,13300.0,Cash
+S0090,2024-12-04,C024,Laptop,Electronics,North,6,50000,15,45000.0,255000.0,UPI
+S0091,2024-02-24,C028,Laptop,Electronics,East,7,50000,15,52500.0,297500.0,Net Banking
+S0092,2024-09-24,C042,Headphones,Accessories,East,7,2000,5,700.0,13300.0,Net Banking
+S0093,2024-06-14,C016,Tablet,Electronics,North,7,25000,10,17500.0,157500.0,UPI
+S0094,2024-10-18,C040,Tablet,Electronics,West,4,25000,15,15000.0,85000.0,UPI
+S0095,2024-04-03,C032,Laptop,Electronics,South,8,50000,10,40000.0,360000.0,UPI
+S0096,2024-11-01,C045,Desk,Furniture,East,6,12000,10,7200.0,64800.0,Cash
+S0097,2024-07-27,C032,Office Chair,Furniture,South,2,7000,5,700.0,13300.0,Net Banking
+S0098,2024-02-17,C019,Tablet,Electronics,South,8,25000,0,0.0,200000.0,Net Banking
+S0099,2024-08-30,C036,Office Chair,Furniture,East,5,7000,10,3500.0,31500.0,Net Banking
+S0100,2024-05-18,C020,Monitor,Electronics,East,6,15000,15,13500.0,76500.0,Credit Card
