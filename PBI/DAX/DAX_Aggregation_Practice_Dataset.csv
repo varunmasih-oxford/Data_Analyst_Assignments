@@ -1,0 +1,151 @@
+OrderID,OrderDate,Quantity,UnitPrice,Discount,CustomerRating,Category,SalesRep,IsPriorityOrder
+1001,2024-03-15,8,400,0.05,,Accessories,Rahul,False
+1002,2024-09-16,2,500,0.0,1.0,Accessories,Rahul,True
+1003,2024-12-03,11,200,0.1,2.0,Office Supplies,Priya,True
+1004,2024-03-13,4,300,0.1,,Accessories,Priya,False
+1005,2024-08-24,9,300,0.15,2.0,Electronics,Priya,True
+1006,2024-11-04,7,200,,2.0,Furniture,Priya,True
+1007,2024-12-06,4,400,0.15,2.0,Electronics,Karan,True
+1008,2024-11-12,9,600,0.1,,Office Supplies,Karan,False
+1009,2024-10-04,6,400,0.15,1.0,Electronics,Rahul,False
+1010,2024-05-09,4,600,0.15,5.0,Accessories,Karan,False
+1011,2024-03-16,1,600,,3.0,Furniture,Amit,False
+1012,2024-12-27,12,100,0.0,5.0,Furniture,Rahul,True
+1013,2024-11-29,12,600,,3.0,Office Supplies,Neha,True
+1014,2024-12-19,2,400,0.05,5.0,Electronics,Karan,True
+1015,2024-01-23,7,600,0.0,4.0,Furniture,Karan,False
+1016,2024-10-06,1,600,0.15,2.0,Electronics,Neha,True
+1017,2024-04-11,4,200,0.0,1.0,Furniture,Priya,True
+1018,2024-03-03,5,100,0.15,1.0,Accessories,Neha,False
+1019,2024-06-24,12,400,,2.0,Office Supplies,Neha,True
+1020,2024-04-16,7,100,,3.0,Accessories,Rahul,True
+1021,2024-04-07,4,100,0.15,3.0,Electronics,Rahul,False
+1022,2024-01-20,1,500,0.1,2.0,Accessories,Amit,True
+1023,2024-04-22,5,600,0.0,1.0,Office Supplies,Rahul,False
+1024,2024-01-18,12,200,0.0,1.0,Office Supplies,Karan,True
+1025,2024-03-22,12,100,0.0,,Office Supplies,Karan,False
+1026,2024-03-30,7,400,0.15,2.0,Furniture,Priya,False
+1027,2024-02-07,11,400,0.05,4.0,Electronics,Rahul,True
+1028,2024-02-26,10,500,0.05,1.0,Accessories,Neha,False
+1029,2024-12-28,6,100,0.0,1.0,Accessories,Neha,True
+1030,2024-10-16,3,400,0.0,,Electronics,Rahul,True
+1031,2024-10-11,10,200,0.05,5.0,Furniture,Priya,False
+1032,2024-10-16,7,600,0.0,,Accessories,Rahul,True
+1033,2024-12-10,8,300,0.05,,Office Supplies,Priya,True
+1034,2024-01-08,4,500,0.0,5.0,Electronics,Priya,False
+1035,2024-11-19,1,600,0.15,3.0,Accessories,Priya,False
+1036,2024-01-25,11,500,,3.0,Electronics,Karan,True
+1037,2024-12-18,3,100,,,Furniture,Neha,True
+1038,2024-02-28,4,300,0.1,1.0,Office Supplies,Amit,False
+1039,2024-06-05,12,400,,2.0,Office Supplies,Amit,True
+1040,2024-06-24,10,600,,2.0,Furniture,Neha,True
+1041,2024-02-14,6,500,0.05,3.0,Office Supplies,Priya,True
+1042,2024-08-15,1,200,,2.0,Accessories,Karan,True
+1043,2024-10-04,8,300,0.0,1.0,Accessories,Amit,False
+1044,2024-07-14,3,200,0.15,2.0,Furniture,Rahul,False
+1045,2024-04-21,5,400,0.15,3.0,Office Supplies,Amit,False
+1046,2024-05-03,9,200,0.0,,Accessories,Amit,False
+1047,2024-03-02,3,500,0.15,3.0,Furniture,Karan,True
+1048,2024-07-25,1,400,0.1,1.0,Office Supplies,Neha,True
+1049,2024-02-08,6,100,0.1,5.0,Accessories,Karan,False
+1050,2024-09-30,7,300,0.1,2.0,Furniture,Priya,False
+1051,2024-09-09,7,500,0.15,2.0,Accessories,Amit,True
+1052,2024-03-31,2,200,0.0,1.0,Office Supplies,Neha,True
+1053,2024-06-20,7,600,0.0,5.0,Office Supplies,Neha,False
+1054,2024-12-19,6,600,0.0,5.0,Office Supplies,Karan,True
+1055,2024-07-10,5,200,0.15,4.0,Electronics,Amit,False
+1056,2024-02-11,9,600,0.0,3.0,Accessories,Neha,False
+1057,2024-11-16,9,600,0.0,4.0,Office Supplies,Priya,True
+1058,2024-02-16,8,500,0.05,5.0,Electronics,Rahul,True
+1059,2024-07-26,9,100,0.15,3.0,Accessories,Priya,False
+1060,2024-05-06,11,600,,,Electronics,Neha,False
+1061,2024-01-01,5,400,0.0,4.0,Office Supplies,Priya,False
+1062,2024-09-07,11,600,,2.0,Accessories,Priya,True
+1063,2024-11-24,5,400,0.0,1.0,Accessories,Amit,True
+1064,2024-03-14,4,400,0.05,4.0,Office Supplies,Rahul,False
+1065,2024-07-15,7,500,0.15,1.0,Furniture,Amit,True
+1066,2024-01-11,9,400,0.15,4.0,Furniture,Amit,True
+1067,2024-02-08,4,600,0.15,3.0,Office Supplies,Karan,True
+1068,2024-11-11,8,500,,3.0,Office Supplies,Rahul,False
+1069,2024-05-22,2,400,0.05,4.0,Electronics,Rahul,True
+1070,2024-11-21,6,600,0.15,4.0,Office Supplies,Neha,True
+1071,2024-12-25,8,500,,3.0,Office Supplies,Amit,True
+1072,2024-07-19,2,500,0.15,2.0,Furniture,Rahul,True
+1073,2024-01-21,12,100,,,Accessories,Rahul,True
+1074,2024-06-27,10,600,0.05,,Office Supplies,Priya,False
+1075,2024-09-22,10,300,0.1,,Office Supplies,Rahul,False
+1076,2024-02-22,3,600,0.1,4.0,Furniture,Priya,True
+1077,2024-06-21,3,400,0.15,4.0,Furniture,Neha,False
+1078,2024-12-03,3,600,0.05,5.0,Furniture,Rahul,False
+1079,2024-09-05,5,500,,3.0,Office Supplies,Amit,False
+1080,2024-11-14,7,500,0.15,4.0,Office Supplies,Karan,False
+1081,2024-01-15,12,500,0.15,,Furniture,Rahul,False
+1082,2024-06-27,6,400,0.0,5.0,Furniture,Priya,True
+1083,2024-02-11,8,200,0.05,2.0,Electronics,Karan,False
+1084,2024-08-20,12,600,,3.0,Electronics,Neha,True
+1085,2024-06-20,8,600,0.15,4.0,Office Supplies,Karan,True
+1086,2024-10-18,12,200,0.0,1.0,Accessories,Karan,True
+1087,2024-06-11,1,500,0.0,,Electronics,Karan,True
+1088,2024-02-16,6,400,,1.0,Office Supplies,Amit,False
+1089,2024-01-12,8,200,0.0,,Accessories,Amit,False
+1090,2024-05-12,12,600,0.15,1.0,Electronics,Neha,False
+1091,2024-11-09,11,300,0.05,4.0,Electronics,Karan,False
+1092,2024-10-16,1,100,0.1,2.0,Accessories,Amit,True
+1093,2024-07-31,3,600,,2.0,Office Supplies,Priya,True
+1094,2024-03-13,11,500,0.0,5.0,Office Supplies,Amit,False
+1095,2024-11-12,11,600,0.05,1.0,Accessories,Karan,False
+1096,2024-01-27,6,400,0.0,,Office Supplies,Priya,False
+1097,2024-06-03,9,200,0.0,5.0,Accessories,Neha,True
+1098,2024-01-03,1,300,,3.0,Furniture,Neha,True
+1099,2024-12-10,3,100,,1.0,Office Supplies,Karan,True
+1100,2024-06-02,9,400,0.05,,Electronics,Rahul,True
+1101,2024-04-19,8,100,0.0,4.0,Electronics,Neha,True
+1102,2024-08-07,8,400,0.15,4.0,Office Supplies,Neha,True
+1103,2024-05-08,6,400,0.05,1.0,Furniture,Amit,True
+1104,2024-06-17,4,100,,4.0,Accessories,Karan,True
+1105,2024-05-12,6,500,0.1,1.0,Electronics,Amit,False
+1106,2024-12-05,3,400,0.0,5.0,Accessories,Rahul,True
+1107,2024-12-05,11,400,0.0,,Accessories,Priya,True
+1108,2024-11-21,5,200,,1.0,Accessories,Karan,True
+1109,2024-01-02,9,600,0.0,5.0,Office Supplies,Karan,True
+1110,2024-08-11,3,600,0.1,,Furniture,Karan,True
+1111,2024-05-17,7,300,0.0,2.0,Office Supplies,Rahul,False
+1112,2024-12-18,10,300,0.15,4.0,Office Supplies,Priya,True
+1113,2024-05-07,12,300,0.15,4.0,Electronics,Amit,True
+1114,2024-11-19,3,500,0.05,1.0,Electronics,Priya,True
+1115,2024-11-14,12,600,0.15,5.0,Accessories,Karan,False
+1116,2024-12-10,12,400,0.05,,Accessories,Neha,True
+1117,2024-11-17,1,200,0.1,4.0,Furniture,Amit,False
+1118,2024-07-15,4,200,0.1,2.0,Furniture,Rahul,False
+1119,2024-03-28,6,400,0.15,1.0,Accessories,Neha,False
+1120,2024-07-31,3,200,0.15,1.0,Office Supplies,Priya,False
+1121,2024-09-05,8,600,0.05,5.0,Electronics,Karan,False
+1122,2024-09-21,10,600,0.0,,Furniture,Karan,True
+1123,2024-03-06,1,400,0.1,4.0,Accessories,Rahul,True
+1124,2024-05-17,10,300,0.1,2.0,Electronics,Priya,True
+1125,2024-07-12,10,600,0.05,1.0,Furniture,Karan,False
+1126,2024-03-31,11,300,0.0,3.0,Office Supplies,Amit,True
+1127,2024-10-04,9,600,0.0,5.0,Furniture,Karan,False
+1128,2024-09-26,6,100,,3.0,Furniture,Karan,False
+1129,2024-08-22,9,600,,4.0,Electronics,Amit,True
+1130,2024-01-03,5,600,0.05,,Furniture,Amit,False
+1131,2024-04-08,11,300,0.0,1.0,Office Supplies,Priya,False
+1132,2024-08-28,10,200,0.1,2.0,Electronics,Priya,True
+1133,2024-04-08,12,200,0.1,2.0,Furniture,Neha,True
+1134,2024-01-18,10,100,0.0,2.0,Accessories,Neha,True
+1135,2024-05-30,9,200,,1.0,Furniture,Amit,False
+1136,2024-01-24,1,500,0.15,4.0,Furniture,Neha,True
+1137,2024-03-12,3,500,0.05,2.0,Office Supplies,Priya,True
+1138,2024-02-19,9,300,0.15,4.0,Office Supplies,Karan,True
+1139,2024-09-22,10,200,0.15,,Accessories,Amit,False
+1140,2024-06-16,4,100,0.1,5.0,Furniture,Priya,True
+1141,2024-01-20,1,100,0.15,3.0,Furniture,Priya,True
+1142,2024-09-16,5,300,0.05,1.0,Office Supplies,Priya,True
+1143,2024-11-30,8,100,,4.0,Accessories,Amit,False
+1144,2024-05-10,6,600,0.0,4.0,Accessories,Priya,False
+1145,2024-06-18,5,600,0.1,5.0,Office Supplies,Amit,False
+1146,2024-12-06,5,400,,4.0,Electronics,Priya,False
+1147,2024-07-03,8,300,0.05,4.0,Electronics,Priya,False
+1148,2024-05-28,3,300,0.1,5.0,Electronics,Priya,True
+1149,2024-11-02,3,600,0.1,,Electronics,Neha,False
+1150,2024-04-10,12,400,0.05,1.0,Furniture,Rahul,True
