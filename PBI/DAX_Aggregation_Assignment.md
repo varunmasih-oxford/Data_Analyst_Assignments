@@ -1,120 +1,241 @@
-## Topic: Aggregation Functions
+# DAX Aggregation Functions
 
-### Objective
-Practice and understand how Aggregation Functions work in DAX for totals and summarization.
+Dataset Used: `DAX_Aggregation_Practice_Dataset.csv`
 
-Functions Covered:
-- SUM
-- AVERAGE
-- MIN
-- MAX
-- COUNT
-- DISTINCTCOUNT
+Columns:
+OrderID, OrderDate, Quantity, UnitPrice, Discount, CustomerRating, Category, SalesRep, IsPriorityOrder
 
 ---
 
-# Dataset Used
+## 1. SUM
 
-Tables:
-- Sales
-- Customers
-- Products
-- Regions
+Use Case:
+Calculate total numeric values in a column.
 
-Make sure relationships are properly created before starting.
+Example Scenario:
+Find total quantity sold.
 
----
+```DAX
+Total Quantity = SUM(Sales[Quantity])
+```
 
-# Part 1: Basic Aggregations
-
-### Q1. Create a measure to calculate Total Sales Amount.
-Use:
-SUM()
-
-Expected Measure Name:
-Total Sales
+When to Use:
+When you just need column aggregation without row-level calculation.
 
 ---
 
-### Q2. Create a measure to calculate Average Sales per Order.
-Use:
-AVERAGE()
+## 2. SUMX
 
-Expected Measure Name:
-Average Sales
+Use Case:
+Perform row-by-row calculation, then sum results.
 
----
+Example Scenario:
+Calculate total revenue.
 
-### Q3. Find the Minimum Sale Amount recorded.
-Use:
-MIN()
+```DAX
+Total Revenue = SUMX(Sales, Sales[Quantity] * Sales[UnitPrice])
+```
 
-Expected Measure Name:
-Minimum Sale
-
----
-
-### Q4. Find the Maximum Sale Amount recorded.
-Use:
-MAX()
-
-Expected Measure Name:
-Maximum Sale
+When to Use:
+When calculation requires multiplying or combining columns per row.
 
 ---
 
-# Part 2: Counting Functions
+## 3. AVERAGE
 
-### Q5. Count total number of orders.
-Use:
-COUNT()
+Use Case:
+Calculate average of numeric column.
 
-Expected Measure Name:
-Total Orders
-
----
-
-### Q6. Count total number of unique customers.
-Use:
-DISTINCTCOUNT()
-
-Expected Measure Name:
-Unique Customers
+```DAX
+Avg Price = AVERAGE(Sales[UnitPrice])
+```
 
 ---
 
-# Part 3: Visual Based Tasks
+## 4. AVERAGEA
 
-Create the following visuals:
+Use Case:
+Average including logical values (TRUE = 1, FALSE = 0).
 
-1. Card Visual – Show Total Sales
-2. Card Visual – Show Total Orders
-3. Table Visual – Show:
-   - Customer Name
-   - Total Sales
-4. Bar Chart – Region vs Total Sales
-5. Column Chart – Product Category vs Average Sales
+```DAX
+Avg Priority = AVERAGEA(Sales[IsPriorityOrder])
+```
 
 ---
 
-# Part 4: Conceptual Questions
+## 5. AVERAGEX
 
-1. What is the difference between COUNT and DISTINCTCOUNT?
-2. Why do we prefer SUM over manual addition?
-3. What happens if there are blank values in AVERAGE?
-4. Can MIN and MAX work on text columns?
-5. What is the difference between COUNT and COUNTROWS?
+Use Case:
+Average of calculated expression.
+
+```DAX
+Avg Revenue = AVERAGEX(Sales, Sales[Quantity] * Sales[UnitPrice])
+```
+
+---
+
+## 6. COUNT
+
+Use Case:
+Count numeric values (no blanks).
+
+```DAX
+Order Count = COUNT(Sales[OrderID])
+```
 
 ---
 
-# Challenge Task (Bonus)
+## 7. COUNTA
 
-1. Create a measure:
-   Average Sales Per Customer
+Use Case:
+Count non-blank values (text or numeric).
 
-2. Create a measure:
-   Total Sales Per Region
-
-3. Sort customers by Total Sales (Descending).
+```DAX
+Rating Count = COUNTA(Sales[CustomerRating])
+```
 
 ---
+
+## 8. COUNTROWS
+
+Use Case:
+Count number of rows in a table.
+
+```DAX
+Total Rows = COUNTROWS(Sales)
+```
+
+---
+
+## 9. COUNTBLANK
+
+Use Case:
+Count blank values.
+
+```DAX
+Blank Discounts = COUNTBLANK(Sales[Discount])
+```
+
+---
+
+## 10. COUNTX
+
+Use Case:
+Count rows where expression returns non-blank.
+
+```DAX
+Count Revenue Rows = COUNTX(Sales, Sales[Quantity] * Sales[UnitPrice])
+```
+
+---
+
+## 11. COUNTAX
+
+Use Case:
+Like COUNTX but works with text/logical values.
+
+```DAX
+Count Text Example = COUNTAX(Sales, Sales[Category])
+```
+
+---
+
+## 12. DISTINCTCOUNT
+
+Use Case:
+Count unique values.
+
+```DAX
+Unique Categories = DISTINCTCOUNT(Sales[Category])
+```
+
+---
+
+## 13. DISTINCTCOUNTNOBLANK
+
+Use Case:
+Count unique values excluding blanks.
+
+```DAX
+Unique Ratings No Blank = DISTINCTCOUNTNOBLANK(Sales[CustomerRating])
+```
+
+---
+
+## 14. MAX
+
+Use Case:
+Find highest numeric value.
+
+```DAX
+Max Price = MAX(Sales[UnitPrice])
+```
+
+---
+
+## 15. MAXA
+
+Use Case:
+Works with logical values too.
+
+```DAX
+Max Priority = MAXA(Sales[IsPriorityOrder])
+```
+
+---
+
+## 16. MAXX
+
+Use Case:
+Find maximum of expression.
+
+```DAX
+Max Revenue = MAXX(Sales, Sales[Quantity] * Sales[UnitPrice])
+```
+
+---
+
+## 17. MIN
+
+```DAX
+Min Price = MIN(Sales[UnitPrice])
+```
+
+---
+
+## 18. MINA
+
+```DAX
+Min Priority = MINA(Sales[IsPriorityOrder])
+```
+
+---
+
+## 19. MINX
+
+```DAX
+Min Revenue = MINX(Sales, Sales[Quantity] * Sales[UnitPrice])
+```
+
+---
+
+## 20. PRODUCT
+
+Use Case:
+Multiply all values in a column.
+
+```DAX
+Product Quantity = PRODUCT(Sales[Quantity])
+```
+
+---
+
+## 21. PRODUCTX
+
+Use Case:
+Multiply expression row by row.
+
+```DAX
+Product Revenue = PRODUCTX(Sales, Sales[Quantity] * Sales[UnitPrice])
+```
+
