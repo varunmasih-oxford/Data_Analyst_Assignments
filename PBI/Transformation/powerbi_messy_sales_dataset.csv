@@ -1,0 +1,1001 @@
+OrderID,CustomerName,City,Product,Category,OrderDate,Quantity,Price,Discount%
+1129,Karan,Kolkata,Laptop,Electronics,2023-08-17,2,₹49098,5.0
+1055,Meena,,Printer,Electronics,08-26-2024,6,,5.0
+1158,Meena,Kolkata,Laptop,Electronics,,,24026 INR,
+1053,Rahul,Chennai ,Mouse,Accessories,2023-10-24,6,₹5058,5.0
+1008,Meena,pune,Printer,Electronics,01-24-2024,6,₹11715,20.0
+1143,Rohit,Mumbai ,Keyboard,Accessories,,,37670 INR,15.0
+1016,David,delhi,Printer,Electronics,,,26675 INR,20.0
+1000,Rahul,Delhi ,Printer,Electronics,11-29-2024,3,31174,
+1004,Sara,Mumbai,Mouse,Accessories,03/06/2024,6,41479 INR,15.0
+1108,Priya,pune,Keyboard,Accessories,12/05/2024,,16192,
+1058,Karan,Delhi ,Mouse,Accessories,2024-03-24,,26648 INR,10.0
+1033,Karan,Mumbai ,Laptop,Electronics,02-02-2023,,5152,
+1103,Meena,,Monitor,Electronics,,1,₹31496,5.0
+1166,Rohit,,Mouse,Accessories,07-07-2023,9,,5.0
+1073,David,Delhi,Laptop,Electronics,,5,,
+1135,John,Pune,Monitor,Electronics,2023-03-01,,₹12945,5.0
+1168,Karan,Kolkata,Printer,Electronics,2024-11-22,2,5750,
+1117,Karan,,Printer,Electronics,29/09/2023,6,13886 INR,
+1167,Rohit,,Laptop,Electronics,24/12/2023,,14469 INR,5.0
+1162,Rahul,bangalore,Printer,Electronics,29/04/2023,,₹43975,
+1109,Rohit,pune,Monitor,Electronics,01-04-2023,,,5.0
+1053,Priya,Delhi ,Laptop,Electronics,19/08/2024,1,5431,5.0
+1040,Sara,Pune ,Keyboard,Accessories,,4,₹27132,20.0
+1197,Rahul,,Laptop,Electronics,09/11/2023,6,,15.0
+1186,Meena,Kolkata,Printer,Electronics,29/04/2023,7,35641 INR,20.0
+1170,Meena,kolkata,Printer,Electronics,2023-09-18,6,₹8078,
+1107,David,Pune ,Keyboard,Accessories,,9,47669 INR,10.0
+1172,Priya,Pune ,Printer,Electronics,,8,37796,
+1006,Amit,Pune ,Monitor,Electronics,11-10-2024,4,48731,10.0
+1056,John,chennai,Monitor,Electronics,,2,,
+1190,Anita,,Monitor,Electronics,04-20-2024,9,3791,20.0
+1081,Rohit,Delhi ,Keyboard,Accessories,11/05/2024,5,42289 INR,5.0
+1099,Karan,,Mouse,Accessories,,4,₹15655,5.0
+1086,David,,Printer,Electronics,04/02/2024,1,886 INR,10.0
+1066,David,pune,Monitor,Electronics,2024-02-08,8,8864,15.0
+1017,Amit,Chennai,Mouse,Accessories,2023-10-12,,,5.0
+1155,Sara,Chennai ,Mouse,Accessories,2023-09-02,,₹1835,10.0
+1153,Sara,mumbai,Keyboard,Accessories,,,2182 INR,
+1117,John,Delhi,Laptop,Electronics,10-25-2024,,28574 INR,20.0
+1071,Anita,Kolkata ,Mouse,Accessories,,6,43128 INR,10.0
+1152,Rahul,Mumbai ,Monitor,Electronics,05-21-2024,6,,
+1075,Priya,,Laptop,Electronics,15/05/2024,8,₹13021,20.0
+1078,Rahul,Kolkata ,Mouse,Accessories,06-27-2024,8,38612 INR,10.0
+1058,Meena,Bangalore ,Laptop,Electronics,09/07/2023,4,47770,10.0
+1072,Anita,,Keyboard,Accessories,02-25-2023,,₹46900,20.0
+1077,Sara,Chennai,Monitor,Electronics,,,3867 INR,10.0
+1156,Sara,Chennai ,Laptop,Electronics,,10,₹27774,10.0
+1008,Priya,,Mouse,Accessories,2023-09-03,8,₹43781,15.0
+1018,Amit,delhi,Keyboard,Accessories,02/10/2024,3,₹30255,10.0
+1010,David,,Keyboard,Accessories,04-24-2024,,37803 INR,15.0
+1166,Anita,Pune,Printer,Electronics,2024-11-21,,₹2195,15.0
+1177,Anita,Bangalore,Mouse,Accessories,,6,,15.0
+1132,Meena,,Monitor,Electronics,2023-11-19,7,36551,
+1181,John,Chennai,Monitor,Electronics,05-15-2023,1,₹29469,15.0
+1123,Anita,Chennai ,Printer,Electronics,2023-08-19,5,1396,10.0
+1076,Karan,Bangalore ,Monitor,Electronics,2024-09-05,,₹9979,
+1198,David,bangalore,Monitor,Electronics,,10,,5.0
+1134,Anita,Mumbai ,Keyboard,Accessories,10/11/2024,2,,5.0
+1009,Karan,,Mouse,Accessories,,,27368,5.0
+1014,Rahul,Pune ,Mouse,Accessories,2023-04-03,1,₹45352,15.0
+1149,John,,Keyboard,Accessories,29/11/2024,4,,10.0
+1076,David,Pune,Monitor,Electronics,04-21-2024,,30618 INR,15.0
+1002,Karan,Pune ,Monitor,Electronics,01-26-2024,7,,5.0
+1112,Amit,bangalore,Printer,Electronics,27/12/2023,1,₹33053,
+1075,Meena,Bangalore ,Keyboard,Accessories,01/03/2024,5,6406 INR,5.0
+1094,Rahul,Delhi ,Monitor,Electronics,02-11-2024,2,₹9724,
+1104,Sara,Kolkata,Monitor,Electronics,09-26-2024,,₹24844,10.0
+1167,Sara,,Laptop,Electronics,29/08/2023,3,2938,20.0
+1101,Rahul,Pune ,Printer,Electronics,30/03/2024,9,2644 INR,10.0
+1195,Rohit,bangalore,Laptop,Electronics,2024-10-19,10,₹6507,10.0
+1003,Meena,kolkata,Printer,Electronics,03/01/2023,2,₹15769,10.0
+1027,Anita,,Printer,Electronics,2023-02-23,,11919 INR,
+1020,Meena,Chennai,Mouse,Accessories,2024-04-14,8,48160 INR,
+1166,Rohit,,Mouse,Accessories,06-27-2024,,18523 INR,10.0
+1121,Sara,Bangalore ,Monitor,Electronics,2024-04-09,,27619 INR,5.0
+1153,Rahul,Chennai ,Laptop,Electronics,03-03-2023,1,6828 INR,15.0
+1109,Rohit,Bangalore,Laptop,Electronics,2024-11-03,5,₹33753,
+1046,John,Pune ,Printer,Electronics,2024-09-15,6,44735,
+1083,Karan,chennai,Monitor,Electronics,,,5060,
+1193,Rohit,,Laptop,Electronics,,7,3947,5.0
+1054,John,Mumbai,Keyboard,Accessories,2024-06-23,4,,15.0
+1010,David,Mumbai ,Keyboard,Accessories,,,,5.0
+1117,Meena,Bangalore,Monitor,Electronics,,,,5.0
+1162,Sara,Mumbai ,Monitor,Electronics,02-10-2024,,,
+1126,Anita,mumbai,Printer,Electronics,05-30-2023,,₹23396,
+1090,Rohit,Chennai ,Printer,Electronics,,5,37494 INR,5.0
+1189,Amit,,Keyboard,Accessories,2024-01-13,,30760,20.0
+1063,Anita,Delhi,Printer,Electronics,,9,,20.0
+1024,Rohit,Bangalore,Printer,Electronics,,2,10903 INR,20.0
+1021,Rahul,,Keyboard,Accessories,25/03/2023,,₹47930,
+1049,Priya,bangalore,Monitor,Electronics,03-09-2024,6,42671,10.0
+1184,Anita,chennai,Mouse,Accessories,11/12/2023,3,5557,5.0
+1173,Karan,Mumbai ,Monitor,Electronics,,4,₹44826,20.0
+1182,Rohit,,Monitor,Electronics,24/07/2023,6,,5.0
+1128,Meena,Mumbai,Keyboard,Accessories,2024-06-09,1,,10.0
+1120,Anita,Delhi ,Monitor,Electronics,10-27-2024,,5848,
+1107,Karan,Mumbai ,Laptop,Electronics,,2,₹1745,20.0
+1061,Karan,,Laptop,Electronics,11/06/2024,10,7765,20.0
+1004,Meena,,Mouse,Accessories,2023-03-11,,6110 INR,5.0
+1046,John,kolkata,Keyboard,Accessories,2024-08-18,,16302,5.0
+1048,Rahul,,Monitor,Electronics,11-20-2023,,2923,15.0
+1068,Sara,,Laptop,Electronics,,,43474,20.0
+1176,Anita,,Laptop,Electronics,03-23-2023,10,12326 INR,15.0
+1036,Karan,Chennai ,Monitor,Electronics,2023-10-09,9,,20.0
+1195,Sara,,Laptop,Electronics,2024-01-06,6,15966 INR,
+1030,Rahul,,Mouse,Accessories,2024-10-27,,26585 INR,15.0
+1088,Sara,,Monitor,Electronics,2023-07-24,,,
+1146,Meena,,Printer,Electronics,2024-01-06,,₹20157,20.0
+1119,Rohit,kolkata,Printer,Electronics,,2,9004,15.0
+1181,Priya,Mumbai ,Mouse,Accessories,2023-05-13,3,₹42429,15.0
+1148,John,Pune,Printer,Electronics,18/07/2024,,₹5668,10.0
+1160,Rohit,,Printer,Electronics,02-16-2023,1,47727,15.0
+1155,John,,Keyboard,Accessories,2023-11-01,4,,15.0
+1036,Sara,Bangalore,Keyboard,Accessories,2024-01-15,5,₹23134,5.0
+1005,Sara,,Keyboard,Accessories,08-14-2024,5,₹40829,20.0
+1027,David,,Printer,Electronics,,5,14599 INR,10.0
+1195,Rohit,Bangalore,Keyboard,Accessories,15/02/2024,9,26927 INR,15.0
+1128,Amit,bangalore,Printer,Electronics,01-18-2024,9,₹40545,5.0
+1076,Karan,kolkata,Laptop,Electronics,12/04/2024,,,15.0
+1067,Karan,Chennai ,Printer,Electronics,01-13-2024,10,32602 INR,
+1004,Anita,Mumbai,Mouse,Accessories,,10,,15.0
+1083,Anita,pune,Monitor,Electronics,,,₹27563,
+1057,Rahul,chennai,Monitor,Electronics,11-23-2024,9,30624 INR,15.0
+1074,Amit,,Mouse,Accessories,07-27-2024,7,32547 INR,15.0
+1150,Priya,pune,Laptop,Electronics,07-26-2023,,43489 INR,10.0
+1104,Anita,chennai,Laptop,Electronics,02-28-2024,1,₹35302,20.0
+1009,David,Kolkata,Mouse,Accessories,29/10/2024,3,19324,20.0
+1069,Priya,,Mouse,Accessories,2023-11-02,9,49586,5.0
+1131,Meena,pune,Keyboard,Accessories,12-12-2023,7,30575 INR,5.0
+1149,Karan,,Monitor,Electronics,2024-05-03,6,₹6751,5.0
+1157,Priya,Chennai ,Keyboard,Accessories,,5,₹24063,10.0
+1180,Meena,Mumbai,Mouse,Accessories,16/07/2024,,30317 INR,5.0
+1023,Rohit,Bangalore,Printer,Electronics,03/07/2024,10,₹4547,20.0
+1190,Priya,Pune,Laptop,Electronics,,7,,
+1097,Anita,bangalore,Laptop,Electronics,,7,3468,20.0
+1076,Anita,chennai,Monitor,Electronics,23/12/2023,4,₹45243,
+1061,Priya,Mumbai,Monitor,Electronics,06-08-2023,7,₹25356,5.0
+1059,Karan,Mumbai,Laptop,Electronics,,9,39424,15.0
+1044,David,Chennai,Printer,Electronics,27/05/2023,,₹44575,
+1057,Rahul,bangalore,Monitor,Electronics,,9,,10.0
+1023,Rohit,Mumbai ,Monitor,Electronics,,8,,10.0
+1189,Sara,Bangalore ,Laptop,Electronics,12/07/2023,1,18093,20.0
+1131,Anita,Chennai ,Mouse,Accessories,07-19-2024,5,₹40110,20.0
+1149,Karan,mumbai,Laptop,Electronics,2024-01-15,,₹31268,20.0
+1164,Anita,Pune ,Keyboard,Accessories,,,₹13357,20.0
+1161,Priya,Kolkata,Mouse,Accessories,2024-07-13,1,₹23580,5.0
+1003,Amit,Pune,Mouse,Accessories,,9,,
+1020,Meena,Kolkata ,Keyboard,Accessories,20/04/2023,5,,20.0
+1163,Amit,,Monitor,Electronics,2023-11-04,9,₹16438,10.0
+1175,Rahul,,Laptop,Electronics,2024-08-02,5,42764 INR,
+1145,David,Delhi ,Printer,Electronics,01/08/2023,3,12254 INR,
+1101,Meena,Delhi ,Keyboard,Accessories,2024-05-27,,25655,5.0
+1063,Sara,,Keyboard,Accessories,20/01/2024,10,15451 INR,5.0
+1033,Sara,,Keyboard,Accessories,2024-02-03,6,₹25403,10.0
+1105,David,Kolkata ,Monitor,Electronics,04-02-2023,1,,5.0
+1070,David,bangalore,Printer,Electronics,05-23-2023,3,₹37983,15.0
+1158,David,Mumbai ,Monitor,Electronics,22/05/2024,7,₹24166,15.0
+1177,Anita,,Monitor,Electronics,25/11/2023,,₹28720,
+1074,Sara,Kolkata,Mouse,Accessories,27/04/2023,4,,20.0
+1129,David,,Monitor,Electronics,,,₹42006,
+1110,Sara,Mumbai,Laptop,Electronics,11-04-2024,7,24062,5.0
+1026,Rahul,kolkata,Laptop,Electronics,,1,₹15049,20.0
+1178,Anita,,Laptop,Electronics,18/12/2023,,9784 INR,15.0
+1040,Meena,mumbai,Laptop,Electronics,2023-01-24,,20178,
+1099,Amit,delhi,Monitor,Electronics,,10,₹15694,10.0
+1125,Rohit,,Mouse,Accessories,15/04/2023,,18741,15.0
+1061,Rahul,Pune,Printer,Electronics,27/12/2023,3,25969,5.0
+1073,John,mumbai,Mouse,Accessories,,3,,10.0
+1181,Anita,,Keyboard,Accessories,11/05/2024,8,4013 INR,20.0
+1130,Sara,,Mouse,Accessories,03/02/2023,,₹37553,
+1067,Meena,pune,Laptop,Electronics,,1,18056,5.0
+1136,Rahul,mumbai,Monitor,Electronics,09/10/2024,10,14254 INR,
+1037,Meena,Delhi ,Printer,Electronics,2023-10-24,3,46640 INR,10.0
+1094,Anita,,Monitor,Electronics,,,38342 INR,20.0
+1068,Meena,kolkata,Keyboard,Accessories,11-11-2024,4,38639,15.0
+1116,Amit,Delhi,Keyboard,Accessories,2023-12-18,3,,20.0
+1078,Priya,delhi,Mouse,Accessories,04-06-2023,,43098 INR,20.0
+1108,John,Kolkata,Laptop,Electronics,21/03/2023,1,₹6737,20.0
+1002,Karan,chennai,Laptop,Electronics,01-12-2024,,15504,10.0
+1109,Meena,Delhi,Monitor,Electronics,22/09/2024,7,₹47845,10.0
+1130,Priya,Pune ,Mouse,Accessories,09-06-2024,,₹42745,20.0
+1099,Karan,Pune,Keyboard,Accessories,,6,,20.0
+1073,Rohit,Delhi,Keyboard,Accessories,2023-03-16,,,20.0
+1195,Sara,Mumbai ,Monitor,Electronics,2023-10-12,,₹26863,15.0
+1181,John,Delhi ,Monitor,Electronics,,3,₹16139,5.0
+1016,Rahul,Delhi ,Mouse,Accessories,05-10-2023,,34775 INR,
+1189,Rohit,Bangalore,Laptop,Electronics,26/05/2024,10,33974 INR,5.0
+1106,Meena,,Laptop,Electronics,28/01/2024,4,,15.0
+1141,Anita,Chennai ,Laptop,Electronics,2023-07-03,5,37956,5.0
+1006,Priya,chennai,Keyboard,Accessories,04-20-2024,1,37449 INR,
+1036,Rahul,mumbai,Keyboard,Accessories,01-21-2024,7,1128 INR,5.0
+1015,David,,Laptop,Electronics,2024-04-14,,27570 INR,10.0
+1027,John,delhi,Mouse,Accessories,04-08-2024,10,,20.0
+1055,Meena,delhi,Monitor,Electronics,,5,8412 INR,10.0
+1140,Priya,,Laptop,Electronics,11-24-2024,,,5.0
+1019,Amit,Chennai,Monitor,Electronics,16/08/2023,10,7178,5.0
+1097,David,,Mouse,Accessories,,7,42835,10.0
+1022,Rahul,,Keyboard,Accessories,02/06/2023,9,18521 INR,20.0
+1082,David,,Mouse,Accessories,,,₹13571,15.0
+1168,Priya,bangalore,Mouse,Accessories,,3,₹21397,15.0
+1179,Meena,Pune ,Printer,Electronics,27/06/2023,,,
+1134,Anita,delhi,Printer,Electronics,,10,,5.0
+1018,Meena,kolkata,Keyboard,Accessories,2023-07-01,9,9051 INR,20.0
+1096,Rahul,Mumbai ,Printer,Electronics,,4,20276 INR,15.0
+1190,Sara,Kolkata,Mouse,Accessories,07-06-2023,3,,10.0
+1027,Amit,bangalore,Keyboard,Accessories,,6,21439,5.0
+1115,Sara,,Monitor,Electronics,01-23-2024,10,₹48510,5.0
+1123,Amit,Mumbai,Keyboard,Accessories,,,1815,20.0
+1024,Amit,Kolkata ,Mouse,Accessories,06/12/2023,5,40301,20.0
+1052,John,,Printer,Electronics,2024-01-05,4,36522,15.0
+1094,John,,Laptop,Electronics,11-07-2024,6,,20.0
+1105,Karan,Mumbai,Laptop,Electronics,2023-08-20,,30978 INR,10.0
+1132,Karan,,Printer,Electronics,01/05/2024,,,
+1066,Meena,,Mouse,Accessories,2023-08-05,,₹29928,5.0
+1037,Karan,,Laptop,Electronics,2023-10-10,2,26541 INR,
+1009,John,,Printer,Electronics,,10,7066,15.0
+1077,Rahul,Chennai ,Monitor,Electronics,10/02/2024,1,,15.0
+1104,Anita,Bangalore,Monitor,Electronics,03-29-2024,4,₹45382,
+1063,Amit,kolkata,Keyboard,Accessories,02/06/2024,4,4183,20.0
+1152,Anita,Pune,Laptop,Electronics,,6,13548 INR,10.0
+1165,Priya,chennai,Monitor,Electronics,04-03-2023,10,23421 INR,10.0
+1078,Rahul,Pune,Keyboard,Accessories,10/01/2023,,43202,20.0
+1072,Rahul,Delhi ,Monitor,Electronics,,,₹30580,5.0
+1169,Meena,mumbai,Monitor,Electronics,11-02-2024,10,18619 INR,10.0
+1136,Anita,pune,Laptop,Electronics,2024-03-04,,19872 INR,15.0
+1090,Priya,bangalore,Printer,Electronics,10/04/2023,6,₹11640,15.0
+1030,David,Pune,Monitor,Electronics,2024-04-19,,17576 INR,
+1161,John,bangalore,Keyboard,Accessories,,8,₹4043,15.0
+1122,David,,Laptop,Electronics,,7,₹30125,5.0
+1033,Sara,pune,Laptop,Electronics,26/11/2023,6,48384 INR,20.0
+1125,Meena,Kolkata ,Printer,Electronics,,3,39079,10.0
+1159,Amit,Delhi,Mouse,Accessories,05/08/2023,,₹1753,
+1177,Amit,Kolkata ,Laptop,Electronics,,8,43882,15.0
+1127,Priya,Delhi,Monitor,Electronics,,5,43916 INR,
+1003,Sara,,Mouse,Accessories,2024-02-24,6,13716 INR,5.0
+1025,John,Chennai ,Printer,Electronics,04-14-2023,5,44345,5.0
+1159,Rahul,pune,Keyboard,Accessories,2023-04-29,6,,5.0
+1185,Amit,chennai,Keyboard,Accessories,,,,10.0
+1105,Anita,delhi,Laptop,Electronics,01-24-2024,8,,5.0
+1088,David,Pune,Laptop,Electronics,21/06/2024,4,17645,10.0
+1129,Priya,chennai,Printer,Electronics,25/04/2024,6,₹4076,
+1103,David,Chennai,Monitor,Electronics,2024-03-30,8,,5.0
+1196,Karan,bangalore,Printer,Electronics,,,6456 INR,
+1179,Sara,Bangalore ,Monitor,Electronics,10/04/2023,9,,5.0
+1086,Sara,delhi,Mouse,Accessories,18/09/2023,,,20.0
+1123,Rohit,Chennai,Laptop,Electronics,13/04/2024,,42000,10.0
+1075,Anita,chennai,Printer,Electronics,09-06-2024,7,11880,10.0
+1166,John,Kolkata ,Mouse,Accessories,18/11/2023,,46376 INR,
+1027,Amit,Kolkata ,Printer,Electronics,,,46002,20.0
+1091,Anita,Pune ,Mouse,Accessories,10-21-2023,4,₹44425,5.0
+1175,Meena,Kolkata,Printer,Electronics,28/07/2024,7,₹48963,
+1045,Sara,kolkata,Laptop,Electronics,08-19-2023,5,₹49237,10.0
+1181,John,Kolkata ,Mouse,Accessories,10-13-2023,6,,5.0
+1129,John,pune,Mouse,Accessories,07-17-2024,3,3832 INR,20.0
+1143,Amit,bangalore,Printer,Electronics,11-10-2024,9,6525 INR,5.0
+1131,Rohit,Bangalore ,Keyboard,Accessories,,9,₹16251,20.0
+1161,Priya,Mumbai,Monitor,Electronics,2023-11-25,,₹19927,20.0
+1045,Rahul,Chennai,Laptop,Electronics,2024-10-24,2,,
+1164,Karan,,Laptop,Electronics,,2,,5.0
+1007,Anita,,Printer,Electronics,10-24-2023,,5257 INR,10.0
+1036,Sara,Pune ,Printer,Electronics,30/10/2023,,,5.0
+1157,Rahul,pune,Laptop,Electronics,04/08/2023,3,38033,10.0
+1148,Anita,Delhi ,Laptop,Electronics,2024-07-16,,12385,15.0
+1078,Karan,,Keyboard,Accessories,2023-04-13,,₹44494,10.0
+1173,Meena,,Printer,Electronics,05/01/2023,5,,20.0
+1019,Amit,mumbai,Monitor,Electronics,2024-07-18,,,
+1074,John,,Laptop,Electronics,,,₹38438,20.0
+1144,Karan,pune,Printer,Electronics,11/01/2023,8,26503 INR,10.0
+1120,Anita,delhi,Monitor,Electronics,09-28-2023,6,,5.0
+1064,David,Chennai ,Laptop,Electronics,15/08/2024,,7264 INR,10.0
+1038,John,Chennai,Printer,Electronics,10/09/2024,9,,10.0
+1105,Amit,chennai,Keyboard,Accessories,,,₹47509,10.0
+1103,Karan,mumbai,Laptop,Electronics,2023-05-18,,₹38084,
+1196,John,,Laptop,Electronics,,,43868 INR,
+1133,Rohit,chennai,Printer,Electronics,2024-04-09,2,47960 INR,20.0
+1198,David,chennai,Mouse,Accessories,2024-09-21,10,,
+1122,Priya,Kolkata,Monitor,Electronics,01-26-2024,3,,5.0
+1027,John,delhi,Keyboard,Accessories,2023-07-13,7,27281 INR,20.0
+1045,Meena,,Printer,Electronics,09-18-2024,9,,
+1102,Meena,mumbai,Printer,Electronics,2024-02-12,,20596 INR,
+1056,Meena,,Printer,Electronics,2023-06-14,2,46182,5.0
+1051,Rohit,kolkata,Printer,Electronics,06-17-2024,8,,15.0
+1199,David,Bangalore,Mouse,Accessories,2024-09-21,2,₹39789,15.0
+1155,Priya,Kolkata ,Monitor,Electronics,07-16-2024,6,27071,20.0
+1147,Rahul,Kolkata,Monitor,Electronics,2024-02-21,,₹804,20.0
+1179,Priya,Chennai,Monitor,Electronics,2024-04-14,,16443 INR,15.0
+1121,Meena,Pune ,Monitor,Electronics,2023-09-27,2,23640,15.0
+1039,Sara,mumbai,Mouse,Accessories,24/07/2023,10,₹18134,5.0
+1071,David,Chennai ,Laptop,Electronics,05-08-2024,,44790,10.0
+1080,Amit,,Printer,Electronics,02-03-2023,9,,5.0
+1093,John,Mumbai ,Mouse,Accessories,19/09/2024,10,7102 INR,20.0
+1142,David,kolkata,Monitor,Electronics,,2,46421 INR,20.0
+1143,Karan,Kolkata ,Mouse,Accessories,,5,,5.0
+1142,Rahul,Bangalore ,Monitor,Electronics,2023-08-09,,6986,15.0
+1157,Rahul,,Laptop,Electronics,12/08/2024,2,₹8445,20.0
+1167,Rahul,Mumbai ,Mouse,Accessories,,6,,15.0
+1064,Sara,Chennai,Printer,Electronics,,,,10.0
+1021,David,Chennai,Mouse,Accessories,2024-04-29,5,26520,15.0
+1138,Rahul,Pune ,Mouse,Accessories,10/05/2023,8,,
+1058,Sara,Pune ,Monitor,Electronics,,,₹46219,20.0
+1002,David,Bangalore,Keyboard,Accessories,11/01/2023,8,₹27514,15.0
+1020,David,,Printer,Electronics,,4,36427 INR,10.0
+1163,Anita,mumbai,Printer,Electronics,06-28-2024,3,45368 INR,
+1032,Anita,kolkata,Monitor,Electronics,25/11/2023,5,,5.0
+1014,Rahul,Chennai,Mouse,Accessories,03-06-2024,6,,20.0
+1117,Sara,,Laptop,Electronics,2023-09-14,4,₹31311,
+1076,Priya,Pune,Mouse,Accessories,2023-11-27,,45159 INR,15.0
+1010,Karan,Mumbai,Laptop,Electronics,2024-10-10,7,₹14772,20.0
+1032,Anita,Delhi ,Printer,Electronics,04-04-2023,3,₹24839,10.0
+1075,Rohit,Pune,Keyboard,Accessories,01-22-2024,,,20.0
+1093,Anita,,Mouse,Accessories,24/04/2024,,36126 INR,5.0
+1127,Rohit,,Printer,Electronics,08/01/2024,,25340,10.0
+1049,Sara,Delhi,Printer,Electronics,2023-04-24,2,27356 INR,5.0
+1125,Sara,Delhi,Printer,Electronics,08-27-2024,,,20.0
+1132,Sara,Kolkata,Laptop,Electronics,09-23-2024,5,,5.0
+1172,Anita,,Mouse,Accessories,03/11/2024,10,₹25753,20.0
+1095,David,Chennai ,Laptop,Electronics,12/12/2023,9,,20.0
+1004,Rohit,Chennai,Keyboard,Accessories,09-18-2023,,₹16275,10.0
+1093,Karan,Chennai ,Keyboard,Accessories,23/01/2023,3,₹20182,10.0
+1187,Karan,Chennai,Mouse,Accessories,03-21-2023,10,,20.0
+1081,Rohit,Pune,Laptop,Electronics,2024-03-02,5,,
+1100,John,Chennai,Mouse,Accessories,,7,₹33425,10.0
+1050,Anita,kolkata,Keyboard,Accessories,2024-07-15,,5909,20.0
+1093,Meena,Bangalore,Printer,Electronics,,7,₹37276,10.0
+1095,John,Kolkata,Keyboard,Accessories,,,23078,5.0
+1137,Priya,Bangalore,Laptop,Electronics,2023-10-22,,₹4074,10.0
+1072,Priya,Chennai,Printer,Electronics,2024-09-29,5,,
+1098,Priya,Pune,Keyboard,Accessories,11-07-2024,,3978,20.0
+1078,Meena,Mumbai,Printer,Electronics,28/06/2024,,,20.0
+1142,Rahul,Mumbai,Monitor,Electronics,12-30-2023,5,1704 INR,10.0
+1084,Anita,mumbai,Mouse,Accessories,27/01/2024,,₹26245,
+1136,Sara,mumbai,Mouse,Accessories,13/11/2023,,₹43260,10.0
+1033,John,Pune ,Keyboard,Accessories,,3,2432 INR,5.0
+1120,Meena,,Printer,Electronics,2024-09-02,,₹17989,10.0
+1045,Anita,bangalore,Monitor,Electronics,,4,₹31554,
+1116,Amit,Pune,Monitor,Electronics,,2,₹21792,10.0
+1042,David,,Printer,Electronics,2024-07-25,5,35749,15.0
+1100,David,kolkata,Printer,Electronics,2024-04-19,10,₹45716,15.0
+1180,Anita,pune,Monitor,Electronics,09-14-2023,2,₹12222,15.0
+1196,Amit,bangalore,Laptop,Electronics,2024-01-23,3,₹46852,20.0
+1127,Rohit,Kolkata ,Keyboard,Accessories,05/07/2023,8,29745 INR,5.0
+1160,Rohit,kolkata,Printer,Electronics,2024-04-09,,,10.0
+1172,Rahul,Bangalore,Laptop,Electronics,02-03-2023,7,4108 INR,
+1016,Rahul,,Printer,Electronics,2024-08-15,,,20.0
+1161,Rohit,Pune,Mouse,Accessories,28/02/2024,,18484 INR,5.0
+1127,Rohit,Kolkata ,Monitor,Electronics,11-21-2023,,40134 INR,20.0
+1011,Meena,pune,Monitor,Electronics,2023-07-18,7,15751 INR,15.0
+1085,Meena,Kolkata ,Printer,Electronics,03-11-2023,,₹14415,20.0
+1117,Rohit,delhi,Printer,Electronics,,,₹2408,15.0
+1071,Amit,Pune ,Monitor,Electronics,2024-08-01,6,4171 INR,15.0
+1127,Priya,Pune,Monitor,Electronics,04-30-2023,5,,15.0
+1048,Meena,Mumbai,Monitor,Electronics,2023-06-29,8,34912 INR,20.0
+1079,Amit,,Printer,Electronics,23/11/2024,9,20839,
+1073,Rahul,bangalore,Laptop,Electronics,2024-06-17,6,22342,
+1140,Meena,Delhi,Keyboard,Accessories,2023-06-02,9,8210 INR,15.0
+1012,Sara,chennai,Mouse,Accessories,11-15-2023,,₹19064,20.0
+1193,Anita,Bangalore ,Laptop,Electronics,,4,₹28448,
+1100,John,mumbai,Mouse,Accessories,,5,6589,15.0
+1130,Sara,Bangalore ,Keyboard,Accessories,,10,30206,20.0
+1098,Sara,chennai,Laptop,Electronics,,3,21856,15.0
+1151,Karan,Mumbai,Mouse,Accessories,17/12/2023,10,,20.0
+1055,John,Chennai ,Keyboard,Accessories,2023-11-12,8,₹6899,
+1077,David,Pune ,Laptop,Electronics,,,,15.0
+1060,David,Delhi ,Laptop,Electronics,03-05-2023,2,,
+1092,David,mumbai,Monitor,Electronics,26/01/2024,9,,10.0
+1164,David,,Keyboard,Accessories,25/10/2024,3,44413,20.0
+1147,Anita,bangalore,Printer,Electronics,,7,,10.0
+1187,Rohit,,Printer,Electronics,,,36293 INR,15.0
+1136,Amit,Kolkata ,Monitor,Electronics,2023-09-09,1,34378,20.0
+1161,Anita,Pune ,Monitor,Electronics,10-29-2023,10,38115 INR,
+1157,Rahul,Delhi,Mouse,Accessories,,5,43512 INR,15.0
+1008,Meena,mumbai,Keyboard,Accessories,,,₹49090,5.0
+1164,Rahul,pune,Mouse,Accessories,,10,,5.0
+1135,David,,Laptop,Electronics,02/05/2024,8,,5.0
+1069,Rahul,,Keyboard,Accessories,2024-06-26,5,44965 INR,5.0
+1172,Amit,bangalore,Keyboard,Accessories,05/09/2023,6,,5.0
+1152,Priya,Bangalore,Laptop,Electronics,08-13-2023,10,27451,
+1019,Anita,Mumbai ,Laptop,Electronics,03/11/2024,,₹8362,15.0
+1112,Sara,Chennai,Monitor,Electronics,2023-06-15,5,21694 INR,20.0
+1008,Sara,Mumbai,Mouse,Accessories,,8,,5.0
+1147,Amit,Chennai ,Printer,Electronics,2024-05-24,6,48180,
+1014,Sara,Delhi ,Monitor,Electronics,,5,31835,15.0
+1176,Meena,Mumbai ,Printer,Electronics,2024-10-25,,30622 INR,20.0
+1164,Rahul,,Laptop,Electronics,2023-05-24,,₹29203,20.0
+1148,Priya,,Printer,Electronics,,,2927 INR,5.0
+1024,Anita,Pune,Laptop,Electronics,25/09/2024,1,48699,
+1175,Karan,Chennai ,Mouse,Accessories,01/09/2024,7,39234,
+1062,Karan,Mumbai ,Mouse,Accessories,05-04-2023,3,₹14474,5.0
+1177,Anita,Delhi,Mouse,Accessories,2023-06-11,5,,10.0
+1200,Rahul,,Mouse,Accessories,2024-02-26,,,15.0
+1049,Sara,,Monitor,Electronics,04-08-2023,4,₹37050,10.0
+1026,Amit,Bangalore ,Monitor,Electronics,01-08-2024,10,33105,
+1058,Sara,Pune ,Mouse,Accessories,03-31-2024,2,10857,10.0
+1034,Anita,,Monitor,Electronics,2024-04-27,7,13604,10.0
+1056,Rahul,,Keyboard,Accessories,03-03-2023,3,₹13752,
+1109,Priya,,Mouse,Accessories,,,₹40577,10.0
+1122,Sara,Delhi,Keyboard,Accessories,2024-08-10,9,₹38475,20.0
+1078,John,Bangalore,Monitor,Electronics,05-16-2023,,16262,20.0
+1085,Rohit,Bangalore,Printer,Electronics,22/05/2023,,,5.0
+1119,Karan,Kolkata,Keyboard,Accessories,2023-03-24,7,₹49841,5.0
+1194,Priya,,Keyboard,Accessories,05-22-2023,,24514,15.0
+1136,Rahul,Bangalore,Keyboard,Accessories,03-06-2023,,,20.0
+1028,John,Chennai,Printer,Electronics,2023-07-12,3,24626,20.0
+1016,Amit,,Mouse,Accessories,02/03/2024,1,13886,10.0
+1033,Rahul,,Printer,Electronics,,,27480 INR,10.0
+1044,John,mumbai,Keyboard,Accessories,12-28-2023,9,24872 INR,10.0
+1095,Anita,Mumbai,Mouse,Accessories,24/09/2023,6,₹3196,
+1193,Karan,Delhi ,Mouse,Accessories,,8,35472,10.0
+1083,Amit,delhi,Printer,Electronics,2024-05-05,8,48245,
+1154,Karan,,Mouse,Accessories,,8,15058 INR,
+1022,Priya,Bangalore ,Laptop,Electronics,01-31-2024,,₹24162,20.0
+1151,David,,Monitor,Electronics,2024-02-29,9,,5.0
+1077,Karan,Chennai ,Laptop,Electronics,23/07/2024,9,,15.0
+1045,Anita,,Monitor,Electronics,06-07-2023,5,₹48987,10.0
+1187,Karan,,Laptop,Electronics,,,8322,5.0
+1074,Rahul,Bangalore ,Keyboard,Accessories,05-19-2023,7,₹38619,
+1148,Meena,Bangalore ,Laptop,Electronics,06-21-2023,,₹13201,10.0
+1176,Rohit,mumbai,Laptop,Electronics,26/02/2024,,18942 INR,
+1133,Meena,Bangalore ,Printer,Electronics,2023-03-20,,,10.0
+1004,Anita,Mumbai,Keyboard,Accessories,08-21-2023,7,₹49288,20.0
+1052,Karan,Delhi,Laptop,Electronics,2024-04-25,,13368,10.0
+1025,Karan,mumbai,Mouse,Accessories,08-16-2024,9,44448,5.0
+1112,Sara,,Printer,Electronics,2023-06-25,6,13053 INR,10.0
+1073,Rohit,delhi,Keyboard,Accessories,2024-02-22,,₹28293,5.0
+1017,Anita,,Laptop,Electronics,09-06-2024,5,,15.0
+1043,Sara,,Mouse,Accessories,2024-02-10,,1337,15.0
+1170,Karan,Kolkata ,Mouse,Accessories,,6,,20.0
+1013,Sara,mumbai,Monitor,Electronics,,,,20.0
+1169,Anita,,Laptop,Electronics,2023-06-06,4,40122 INR,20.0
+1045,Rohit,,Printer,Electronics,,8,17648,15.0
+1129,Amit,,Mouse,Accessories,,8,9313 INR,20.0
+1195,Meena,Mumbai ,Keyboard,Accessories,2023-10-19,6,25259 INR,20.0
+1016,Rahul,Pune ,Laptop,Electronics,27/02/2023,,,5.0
+1005,Meena,Chennai ,Keyboard,Accessories,,,35785 INR,20.0
+1093,David,Kolkata ,Printer,Electronics,13/04/2023,10,26078,10.0
+1086,Rahul,Kolkata,Monitor,Electronics,02-18-2023,,₹5436,5.0
+1064,Karan,Chennai ,Printer,Electronics,10-29-2024,7,₹31647,
+1196,David,,Monitor,Electronics,,,44511,
+1073,John,Chennai,Laptop,Electronics,06-04-2023,7,,15.0
+1040,Rahul,,Printer,Electronics,16/07/2023,7,15975,10.0
+1171,Sara,Bangalore ,Laptop,Electronics,2024-10-21,7,₹18704,20.0
+1188,David,Chennai,Mouse,Accessories,08-17-2024,,15969,10.0
+1028,Meena,,Monitor,Electronics,,,₹9955,
+1141,David,Bangalore,Monitor,Electronics,05-01-2024,4,16644 INR,15.0
+1112,Meena,bangalore,Keyboard,Accessories,,5,₹8498,20.0
+1186,Rohit,Mumbai,Laptop,Electronics,2024-02-27,,,15.0
+1028,John,Mumbai ,Monitor,Electronics,30/03/2024,6,₹2292,10.0
+1106,Meena,Pune ,Printer,Electronics,07/04/2024,5,,10.0
+1158,David,Mumbai ,Monitor,Electronics,25/07/2024,1,25228,
+1200,Rahul,Chennai,Keyboard,Accessories,,4,₹6336,15.0
+1060,Karan,mumbai,Monitor,Electronics,09/08/2023,5,₹9032,20.0
+1152,Rahul,pune,Mouse,Accessories,11/01/2023,,,5.0
+1094,John,,Laptop,Electronics,2023-08-29,,3915 INR,
+1080,Amit,,Laptop,Electronics,,3,₹12255,10.0
+1142,Anita,bangalore,Monitor,Electronics,09-19-2024,6,,5.0
+1091,Rohit,Pune,Mouse,Accessories,26/04/2024,1,₹4076,20.0
+1149,Amit,Mumbai ,Monitor,Electronics,24/12/2023,10,₹7872,
+1027,Meena,Delhi,Printer,Electronics,04-07-2023,,₹27790,10.0
+1054,Amit,,Laptop,Electronics,2024-04-09,6,,15.0
+1199,David,Mumbai,Keyboard,Accessories,13/02/2024,3,,15.0
+1121,Rahul,delhi,Mouse,Accessories,05-15-2023,8,,
+1175,John,Kolkata ,Printer,Electronics,,,28191 INR,20.0
+1109,Rahul,bangalore,Printer,Electronics,2023-10-25,,41758,
+1020,Rohit,Pune ,Laptop,Electronics,2024-06-06,,36609,5.0
+1115,Karan,Bangalore ,Laptop,Electronics,2023-07-06,,₹43857,15.0
+1043,Anita,Chennai,Keyboard,Accessories,2024-09-10,7,12767,20.0
+1034,Amit,,Monitor,Electronics,09-23-2024,5,,10.0
+1037,Anita,mumbai,Laptop,Electronics,07/05/2024,5,1541,20.0
+1085,Amit,Mumbai ,Laptop,Electronics,,10,,5.0
+1004,David,,Monitor,Electronics,,,48805 INR,
+1049,Anita,Chennai,Keyboard,Accessories,05-21-2024,,,15.0
+1041,Karan,,Monitor,Electronics,03/11/2024,6,14898 INR,10.0
+1053,Rohit,,Keyboard,Accessories,27/06/2023,8,,5.0
+1124,Rahul,chennai,Laptop,Electronics,2023-06-28,2,₹17592,15.0
+1156,Sara,,Keyboard,Accessories,2024-06-11,,₹37005,
+1093,Meena,,Laptop,Electronics,06-10-2023,,33746,10.0
+1161,Priya,Delhi ,Laptop,Electronics,12-16-2023,7,13731,10.0
+1086,Meena,Delhi,Printer,Electronics,04-14-2024,9,,20.0
+1179,Rohit,Pune ,Mouse,Accessories,2024-11-07,,28947,15.0
+1077,Sara,,Keyboard,Accessories,01/04/2024,6,₹1017,5.0
+1040,Amit,Kolkata ,Printer,Electronics,07/07/2024,,₹26058,5.0
+1031,Anita,Pune ,Printer,Electronics,2024-03-08,,16316 INR,15.0
+1063,Sara,bangalore,Printer,Electronics,18/08/2024,,30197 INR,15.0
+1114,Sara,,Printer,Electronics,,3,,15.0
+1032,Anita,,Printer,Electronics,,,,20.0
+1028,Sara,Kolkata ,Mouse,Accessories,2023-08-06,10,46671,15.0
+1107,Amit,Bangalore,Printer,Electronics,11-09-2023,,₹3139,15.0
+1115,Meena,,Keyboard,Accessories,07-14-2024,,,20.0
+1159,David,Mumbai ,Monitor,Electronics,,,₹40195,20.0
+1143,Sara,Delhi ,Mouse,Accessories,2024-11-17,,26412,10.0
+1180,Karan,Pune,Printer,Electronics,2024-05-02,5,₹38304,20.0
+1097,Rahul,,Laptop,Electronics,2024-08-26,9,,5.0
+1046,Amit,bangalore,Laptop,Electronics,2023-05-28,10,11520 INR,5.0
+1126,Rohit,delhi,Keyboard,Accessories,,10,₹6971,
+1150,Sara,delhi,Monitor,Electronics,2024-04-20,,4473 INR,10.0
+1142,Anita,bangalore,Printer,Electronics,27/03/2023,9,,5.0
+1130,Rahul,,Laptop,Electronics,05-08-2024,,₹41180,5.0
+1129,Meena,Kolkata ,Mouse,Accessories,2023-11-04,,48943,15.0
+1000,Karan,Kolkata ,Keyboard,Accessories,11-26-2023,,30169 INR,20.0
+1096,Karan,Pune,Laptop,Electronics,2024-07-23,2,,15.0
+1023,Karan,Delhi,Monitor,Electronics,,5,12112,15.0
+1128,Anita,,Mouse,Accessories,19/05/2024,,15852,10.0
+1173,Amit,bangalore,Printer,Electronics,2023-03-08,9,₹43743,
+1126,Meena,Chennai ,Printer,Electronics,2023-01-03,9,,
+1188,Priya,Mumbai ,Laptop,Electronics,04-04-2024,2,3577 INR,20.0
+1063,Sara,Delhi,Laptop,Electronics,2023-11-15,6,11279 INR,20.0
+1096,Meena,Delhi,Mouse,Accessories,,2,₹4067,5.0
+1024,Karan,Delhi,Mouse,Accessories,2024-09-17,7,4090 INR,20.0
+1084,Karan,Delhi ,Mouse,Accessories,,,39793,10.0
+1158,Anita,Bangalore ,Laptop,Electronics,18/07/2023,,7229,10.0
+1154,Meena,kolkata,Mouse,Accessories,03-22-2024,8,₹3388,15.0
+1048,Anita,bangalore,Keyboard,Accessories,2023-02-28,2,₹34426,20.0
+1163,Priya,Mumbai,Printer,Electronics,03-04-2024,8,38406 INR,10.0
+1142,Sara,Mumbai,Monitor,Electronics,,2,,10.0
+1062,John,Mumbai ,Keyboard,Accessories,31/01/2023,,41875 INR,10.0
+1169,John,,Laptop,Electronics,2024-11-24,6,12039,
+1162,Priya,Pune ,Printer,Electronics,14/05/2023,10,28924,5.0
+1169,Karan,,Printer,Electronics,2023-06-02,2,35592 INR,5.0
+1148,David,,Mouse,Accessories,15/06/2024,8,49737 INR,
+1021,John,chennai,Laptop,Electronics,08-12-2023,,,5.0
+1081,Rahul,,Keyboard,Accessories,04-21-2024,6,₹34501,20.0
+1030,Sara,Bangalore,Laptop,Electronics,2024-10-22,5,15821 INR,15.0
+1189,Rohit,pune,Laptop,Electronics,09-14-2023,,₹13627,15.0
+1185,Priya,pune,Laptop,Electronics,2024-02-20,7,,20.0
+1142,Amit,,Mouse,Accessories,03-29-2023,8,,15.0
+1150,Amit,,Mouse,Accessories,12-30-2023,5,38347,
+1115,Rahul,,Laptop,Electronics,2024-01-26,,,5.0
+1074,Rohit,,Mouse,Accessories,2023-02-02,5,₹44729,5.0
+1052,John,,Monitor,Electronics,,2,4265,10.0
+1036,Anita,,Keyboard,Accessories,08-11-2024,5,,5.0
+1179,Rahul,Kolkata,Monitor,Electronics,,8,34962 INR,20.0
+1040,Rahul,Pune,Printer,Electronics,,7,₹27700,
+1064,Priya,Delhi ,Keyboard,Accessories,2024-05-20,7,₹4874,
+1171,Anita,Delhi ,Laptop,Electronics,18/12/2023,3,,20.0
+1136,David,Mumbai,Monitor,Electronics,04-27-2024,3,₹5909,10.0
+1133,Sara,pune,Laptop,Electronics,27/03/2024,,44892 INR,20.0
+1003,Meena,Bangalore,Keyboard,Accessories,22/01/2024,1,29597,10.0
+1101,David,bangalore,Laptop,Electronics,2023-06-21,,₹6830,5.0
+1071,Karan,,Mouse,Accessories,02-16-2024,,23868 INR,15.0
+1044,Meena,Kolkata ,Laptop,Electronics,26/05/2024,3,27441 INR,20.0
+1194,Sara,Kolkata,Laptop,Electronics,07/06/2024,,,15.0
+1185,Karan,,Mouse,Accessories,,4,48859,20.0
+1138,Amit,Pune ,Keyboard,Accessories,10-25-2024,6,9299,10.0
+1032,Sara,chennai,Mouse,Accessories,2023-07-07,1,34675 INR,10.0
+1077,Rahul,,Printer,Electronics,23/04/2024,3,36469,
+1110,John,,Monitor,Electronics,,,,20.0
+1143,Karan,Chennai ,Laptop,Electronics,04/07/2024,5,5954 INR,20.0
+1101,Meena,Pune ,Laptop,Electronics,2023-07-20,7,,20.0
+1181,Anita,,Monitor,Electronics,,,20672,15.0
+1116,John,Pune,Laptop,Electronics,02-05-2023,,₹25753,15.0
+1042,David,Chennai,Mouse,Accessories,,4,₹38402,15.0
+1053,David,Kolkata ,Keyboard,Accessories,2024-08-23,,,15.0
+1047,John,,Laptop,Electronics,,3,11536,10.0
+1160,Karan,pune,Monitor,Electronics,06/08/2023,7,,5.0
+1015,Rahul,,Mouse,Accessories,03-07-2023,8,,5.0
+1087,Meena,,Printer,Electronics,06-16-2024,,3243,10.0
+1135,Rahul,pune,Keyboard,Accessories,2023-12-31,1,44086,10.0
+1083,Anita,Delhi,Keyboard,Accessories,28/02/2024,,,10.0
+1200,Rohit,chennai,Printer,Electronics,2023-12-23,,32254,5.0
+1179,Sara,kolkata,Mouse,Accessories,,,,5.0
+1185,Anita,Pune,Monitor,Electronics,08-14-2023,,11001 INR,5.0
+1029,Rahul,,Keyboard,Accessories,,4,15167,5.0
+1137,Priya,Bangalore,Laptop,Electronics,09/08/2024,,₹22797,20.0
+1056,Anita,,Monitor,Electronics,10/11/2024,3,₹24422,20.0
+1180,David,,Mouse,Accessories,2024-09-05,8,39917,5.0
+1108,Anita,Bangalore,Keyboard,Accessories,,7,₹47473,15.0
+1041,Karan,Delhi,Monitor,Electronics,,,35092 INR,10.0
+1173,John,Bangalore,Monitor,Electronics,2023-08-03,7,₹32117,5.0
+1061,David,,Laptop,Electronics,10-27-2024,4,23803,20.0
+1029,Sara,,Keyboard,Accessories,,6,,5.0
+1123,David,Bangalore,Monitor,Electronics,,3,₹44329,15.0
+1137,Sara,,Printer,Electronics,2024-07-04,,8707,10.0
+1065,Amit,delhi,Laptop,Electronics,04-02-2024,,₹39762,5.0
+1147,Anita,Kolkata ,Laptop,Electronics,04/11/2024,9,₹20067,15.0
+1141,Priya,Mumbai ,Printer,Electronics,09/11/2024,,₹40226,
+1173,David,,Keyboard,Accessories,09-19-2023,2,,10.0
+1111,David,pune,Printer,Electronics,07-17-2023,3,41759 INR,5.0
+1037,Priya,Delhi,Printer,Electronics,,6,16720,15.0
+1069,Karan,Delhi ,Laptop,Electronics,06-29-2023,,,5.0
+1039,John,Mumbai ,Laptop,Electronics,,,,10.0
+1073,Rahul,,Monitor,Electronics,,,37695,20.0
+1014,Sara,delhi,Printer,Electronics,2023-11-09,,47585,15.0
+1136,Meena,delhi,Printer,Electronics,2024-05-06,,₹1200,10.0
+1108,Anita,delhi,Printer,Electronics,21/11/2024,9,,20.0
+1055,Rahul,bangalore,Mouse,Accessories,10-25-2023,10,₹7920,
+1047,David,Bangalore,Laptop,Electronics,,,30846,15.0
+1120,David,Chennai,Laptop,Electronics,25/06/2024,3,₹28733,15.0
+1050,Sara,,Keyboard,Accessories,,,12439 INR,10.0
+1126,John,Chennai,Keyboard,Accessories,02/02/2023,,,15.0
+1087,David,Mumbai,Monitor,Electronics,2023-05-15,,,
+1067,Priya,mumbai,Laptop,Electronics,26/03/2023,4,19470 INR,20.0
+1037,David,,Mouse,Accessories,28/08/2024,1,₹46798,5.0
+1164,Amit,,Printer,Electronics,21/06/2024,9,,15.0
+1120,Rahul,Mumbai,Laptop,Electronics,2024-03-04,4,18886 INR,
+1092,Karan,pune,Laptop,Electronics,2024-01-08,,,
+1048,Priya,Delhi,Printer,Electronics,2023-08-04,,43114 INR,20.0
+1088,Meena,,Laptop,Electronics,30/04/2024,,41067 INR,20.0
+1015,Priya,bangalore,Laptop,Electronics,30/05/2024,,,20.0
+1040,Karan,Chennai ,Monitor,Electronics,,4,45372,10.0
+1057,Amit,Pune ,Printer,Electronics,09-23-2023,9,,
+1154,Meena,Pune,Mouse,Accessories,2023-10-12,,₹3061,15.0
+1065,Amit,Delhi ,Laptop,Electronics,10-29-2023,4,₹36497,
+1192,David,Bangalore ,Printer,Electronics,21/09/2023,,,10.0
+1125,John,mumbai,Monitor,Electronics,2024-01-13,,,15.0
+1134,John,,Laptop,Electronics,12/07/2023,,,5.0
+1002,Sara,Delhi ,Printer,Electronics,2023-04-23,3,7035,
+1177,Rahul,bangalore,Keyboard,Accessories,30/07/2024,,₹6068,
+1090,Rahul,mumbai,Laptop,Electronics,07/06/2024,7,7238 INR,10.0
+1011,Karan,Delhi ,Monitor,Electronics,2023-06-23,2,,10.0
+1094,Rahul,Kolkata,Mouse,Accessories,06-03-2023,,₹35265,5.0
+1082,John,,Laptop,Electronics,,5,10106 INR,10.0
+1137,Rohit,,Monitor,Electronics,09-08-2024,9,,20.0
+1092,Rohit,Mumbai ,Printer,Electronics,07/03/2024,1,35641,20.0
+1035,Sara,chennai,Mouse,Accessories,29/10/2023,,23394 INR,10.0
+1020,Priya,Chennai,Monitor,Electronics,2024-01-16,3,,5.0
+1028,John,Pune ,Laptop,Electronics,06-24-2024,1,₹27795,5.0
+1069,Sara,Bangalore ,Laptop,Electronics,,4,₹49726,
+1167,David,Mumbai,Monitor,Electronics,,8,,20.0
+1041,Rohit,Kolkata ,Mouse,Accessories,2023-07-19,4,,5.0
+1012,Meena,Mumbai,Laptop,Electronics,2023-07-12,10,1219 INR,5.0
+1189,Rohit,pune,Keyboard,Accessories,07-19-2023,6,49762 INR,5.0
+1059,Priya,,Printer,Electronics,02-08-2023,,,10.0
+1156,Karan,Bangalore,Mouse,Accessories,12-14-2023,7,48257 INR,5.0
+1017,Rahul,Chennai ,Mouse,Accessories,2023-01-16,3,37652,
+1093,Rahul,Chennai,Keyboard,Accessories,04-29-2024,10,₹6347,20.0
+1174,Amit,,Monitor,Electronics,10-01-2024,8,,
+1171,Sara,Mumbai,Laptop,Electronics,,7,49064,15.0
+1087,Karan,,Monitor,Electronics,2023-04-22,2,,20.0
+1153,David,mumbai,Mouse,Accessories,10/04/2024,6,46525,5.0
+1070,David,bangalore,Keyboard,Accessories,,2,28687,5.0
+1107,Anita,Bangalore ,Keyboard,Accessories,2024-11-16,4,₹30084,20.0
+1082,Meena,Kolkata,Printer,Electronics,2023-12-30,10,,5.0
+1148,Sara,,Mouse,Accessories,02-21-2024,,33231 INR,5.0
+1077,Rahul,Mumbai,Mouse,Accessories,08-10-2023,6,₹12798,
+1109,Meena,Kolkata ,Laptop,Electronics,12-27-2023,3,,10.0
+1166,Amit,Pune,Printer,Electronics,,2,,
+1097,Sara,bangalore,Monitor,Electronics,2024-10-10,,7294,10.0
+1172,Priya,Bangalore ,Monitor,Electronics,01-08-2023,5,,5.0
+1049,Karan,,Monitor,Electronics,09-06-2024,9,₹1517,20.0
+1147,David,mumbai,Laptop,Electronics,17/02/2024,,,15.0
+1146,David,Pune,Printer,Electronics,2023-04-06,10,10923,5.0
+1013,Rahul,mumbai,Mouse,Accessories,03/09/2023,,41886 INR,5.0
+1126,Meena,Bangalore ,Mouse,Accessories,2023-04-24,3,41619,10.0
+1046,Rahul,,Monitor,Electronics,2023-03-17,6,,5.0
+1065,Sara,Kolkata,Mouse,Accessories,,,43731,10.0
+1070,Anita,bangalore,Printer,Electronics,09/01/2024,3,₹35624,10.0
+1149,Karan,bangalore,Laptop,Electronics,,5,36642 INR,15.0
+1090,Meena,,Mouse,Accessories,09-02-2024,,,5.0
+1091,Priya,delhi,Monitor,Electronics,10-28-2023,6,34012 INR,5.0
+1082,Priya,Pune ,Mouse,Accessories,01-10-2023,,₹24857,
+1193,David,Pune,Laptop,Electronics,04-16-2023,,₹19086,15.0
+1098,Priya,delhi,Keyboard,Accessories,,,,
+1120,Sara,Delhi,Laptop,Electronics,,6,19180,20.0
+1164,Sara,,Keyboard,Accessories,07-23-2024,8,49893 INR,15.0
+1185,Meena,pune,Printer,Electronics,04-18-2023,3,7233,
+1149,Anita,,Laptop,Electronics,2023-04-24,5,45604,5.0
+1197,Anita,,Mouse,Accessories,2024-10-14,5,,10.0
+1171,Priya,,Laptop,Electronics,25/07/2024,1,17789,20.0
+1056,Meena,pune,Monitor,Electronics,06-24-2024,9,7350 INR,20.0
+1190,Sara,Mumbai,Monitor,Electronics,,3,,10.0
+1038,David,Bangalore,Laptop,Electronics,,6,30702,
+1103,John,,Monitor,Electronics,2023-10-07,4,,
+1061,Sara,Delhi,Keyboard,Accessories,28/11/2024,10,,
+1088,Rahul,,Laptop,Electronics,07/02/2024,4,,
+1085,Anita,Mumbai ,Keyboard,Accessories,05-03-2024,2,₹703,10.0
+1125,Priya,Delhi ,Laptop,Electronics,2023-01-22,8,28544 INR,20.0
+1188,Meena,Delhi ,Laptop,Electronics,21/06/2024,8,37676 INR,
+1132,Amit,,Keyboard,Accessories,12-28-2023,,17115 INR,10.0
+1027,Rahul,Bangalore,Monitor,Electronics,,,9782 INR,
+1087,Karan,Bangalore,Monitor,Electronics,,,17887 INR,5.0
+1041,Rahul,Mumbai ,Monitor,Electronics,09/01/2023,,23240 INR,20.0
+1000,Amit,Delhi,Keyboard,Accessories,2023-02-11,,,15.0
+1090,Priya,Delhi ,Mouse,Accessories,05/10/2023,1,₹19064,20.0
+1106,Rohit,bangalore,Monitor,Electronics,,4,17621 INR,10.0
+1182,Meena,,Keyboard,Accessories,,,,20.0
+1095,John,Mumbai ,Keyboard,Accessories,2024-04-17,,,
+1166,Sara,Chennai,Printer,Electronics,2023-05-09,1,,15.0
+1057,John,mumbai,Printer,Electronics,2023-12-06,9,,15.0
+1121,Amit,Kolkata,Keyboard,Accessories,10/03/2023,4,₹922,
+1037,Amit,,Monitor,Electronics,10/05/2024,2,8483 INR,10.0
+1170,Rahul,Chennai,Mouse,Accessories,,8,₹43587,20.0
+1008,Karan,,Monitor,Electronics,01-29-2023,10,,20.0
+1016,John,Mumbai ,Laptop,Electronics,06-12-2023,,,10.0
+1168,John,,Keyboard,Accessories,10-13-2023,,37406 INR,
+1040,Priya,Kolkata,Printer,Electronics,08-17-2024,,₹34934,5.0
+1029,Amit,Pune,Laptop,Electronics,31/08/2023,10,31722 INR,5.0
+1112,Rahul,mumbai,Monitor,Electronics,,5,25031,10.0
+1139,Sara,Mumbai,Mouse,Accessories,2023-03-30,,₹11122,15.0
+1160,David,bangalore,Mouse,Accessories,,8,,5.0
+1064,David,Kolkata ,Printer,Electronics,01/05/2023,4,34398 INR,15.0
+1167,Amit,Chennai,Laptop,Electronics,05-27-2024,8,₹19378,5.0
+1179,Amit,,Keyboard,Accessories,07-29-2023,,13640 INR,15.0
+1166,Meena,Pune,Laptop,Electronics,05-13-2023,8,27778,20.0
+1099,David,Pune,Monitor,Electronics,,9,20384,10.0
+1023,Karan,,Monitor,Electronics,05-01-2023,1,₹28472,5.0
+1089,Karan,mumbai,Mouse,Accessories,2023-01-16,1,27570,10.0
+1113,Rahul,bangalore,Keyboard,Accessories,2024-11-04,8,,15.0
+1035,Rohit,,Printer,Electronics,2023-11-23,5,16504 INR,10.0
+1008,Rahul,,Keyboard,Accessories,26/05/2023,1,49121,15.0
+1097,John,,Printer,Electronics,,1,25677,20.0
+1109,Amit,Bangalore,Printer,Electronics,01-27-2023,10,3924,5.0
+1174,Rahul,chennai,Printer,Electronics,03-10-2024,1,44931 INR,5.0
+1169,Meena,Bangalore,Mouse,Accessories,10-08-2023,,,15.0
+1020,Rahul,pune,Mouse,Accessories,02-07-2023,,,
+1012,Priya,mumbai,Printer,Electronics,,,₹4697,5.0
+1183,Amit,Bangalore ,Laptop,Electronics,21/11/2023,,,
+1109,Rahul,Kolkata ,Mouse,Accessories,07/06/2024,,,10.0
+1038,Karan,kolkata,Laptop,Electronics,,1,24111 INR,5.0
+1144,Rohit,,Laptop,Electronics,2023-08-09,2,21019 INR,
+1147,Rahul,,Printer,Electronics,,6,48600,10.0
+1019,Meena,Pune,Keyboard,Accessories,,,,20.0
+1087,Meena,pune,Printer,Electronics,09/05/2023,5,₹29923,5.0
+1195,Rohit,chennai,Laptop,Electronics,21/05/2024,7,₹28092,20.0
+1075,Sara,,Laptop,Electronics,,,8783,15.0
+1034,John,,Keyboard,Accessories,,,39263,
+1126,Meena,Mumbai ,Printer,Electronics,,4,1010 INR,5.0
+1147,Karan,mumbai,Printer,Electronics,01-29-2024,9,,15.0
+1170,Rahul,Bangalore ,Laptop,Electronics,,10,23263,10.0
+1109,Anita,Delhi ,Laptop,Electronics,04/09/2024,,₹36686,
+1056,Sara,Delhi,Mouse,Accessories,05-20-2024,,30243,15.0
+1133,Meena,Pune,Mouse,Accessories,2024-10-07,,,10.0
+1047,Anita,Mumbai ,Printer,Electronics,,3,43827,15.0
+1067,Karan,kolkata,Mouse,Accessories,,,₹42100,20.0
+1091,Rohit,,Printer,Electronics,07-04-2023,,,20.0
+1029,Meena,chennai,Keyboard,Accessories,02/04/2024,,7864 INR,20.0
+1172,Meena,Kolkata,Mouse,Accessories,10-25-2023,6,,20.0
+1146,John,Delhi ,Monitor,Electronics,02/10/2023,8,26627 INR,
+1016,Amit,Pune,Mouse,Accessories,2023-05-13,,40693 INR,
+1063,Amit,,Mouse,Accessories,08-23-2023,,₹35592,5.0
+1031,David,delhi,Laptop,Electronics,06-10-2023,,,20.0
+1049,Karan,pune,Mouse,Accessories,2023-03-17,10,49031,15.0
+1023,Priya,,Keyboard,Accessories,08/10/2023,5,28362,20.0
+1006,David,Bangalore,Printer,Electronics,,,₹32176,10.0
+1063,Sara,delhi,Monitor,Electronics,15/11/2023,,24736,10.0
+1144,Karan,pune,Monitor,Electronics,,,₹31532,20.0
+1187,Sara,,Laptop,Electronics,26/05/2024,,,5.0
+1043,Rohit,Mumbai,Monitor,Electronics,2023-01-14,7,₹5579,20.0
+1095,Karan,Pune ,Mouse,Accessories,,,,10.0
+1183,Anita,Mumbai ,Mouse,Accessories,06-15-2024,,₹34791,5.0
+1159,Anita,,Keyboard,Accessories,06/01/2023,6,,
+1065,Rohit,Chennai ,Mouse,Accessories,05/10/2024,10,₹23467,
+1154,Rahul,,Mouse,Accessories,07-02-2023,,5577,
+1035,Rohit,Mumbai,Monitor,Electronics,04/04/2023,6,₹11516,20.0
+1081,Rohit,,Monitor,Electronics,,,21936 INR,5.0
+1089,John,Chennai,Printer,Electronics,,,42034 INR,5.0
+1134,Priya,Chennai,Keyboard,Accessories,23/09/2024,8,,5.0
+1180,Rahul,,Printer,Electronics,01-14-2023,,6667 INR,15.0
+1156,John,Mumbai,Laptop,Electronics,,1,,10.0
+1172,Meena,kolkata,Mouse,Accessories,03-05-2023,1,5927,10.0
+1113,Amit,mumbai,Printer,Electronics,2024-11-11,5,47825,15.0
+1178,Sara,Bangalore,Printer,Electronics,01-04-2023,,,
+1063,Rahul,Mumbai ,Monitor,Electronics,2023-03-30,,₹8119,10.0
+1066,Anita,Mumbai ,Mouse,Accessories,05-24-2023,3,25358 INR,15.0
+1137,Karan,Pune,Laptop,Electronics,,10,38425 INR,10.0
+1008,Sara,Mumbai ,Monitor,Electronics,05-30-2024,8,45196 INR,
+1121,Meena,Delhi ,Mouse,Accessories,2024-01-17,3,31121 INR,15.0
+1064,Meena,,Laptop,Electronics,2024-04-23,7,₹23962,
+1131,John,,Keyboard,Accessories,2023-02-11,10,26789 INR,15.0
+1117,Amit,Mumbai ,Printer,Electronics,2023-05-14,8,₹34846,10.0
+1122,John,pune,Mouse,Accessories,,9,11776,15.0
+1195,John,Chennai,Laptop,Electronics,,3,,20.0
+1196,Priya,Bangalore,Keyboard,Accessories,2024-09-03,4,,15.0
+1086,David,mumbai,Keyboard,Accessories,23/10/2024,5,,10.0
+1021,Meena,,Monitor,Electronics,02-05-2023,2,,5.0
+1108,Rahul,,Monitor,Electronics,,1,₹11043,5.0
+1086,Karan,,Printer,Electronics,2023-12-10,2,,15.0
+1175,Meena,,Mouse,Accessories,04-20-2024,,,15.0
+1009,Karan,,Monitor,Electronics,07-03-2023,,22615,5.0
+1117,Karan,,Keyboard,Accessories,2023-09-12,5,,10.0
+1020,Meena,Kolkata,Printer,Electronics,17/01/2024,,37794,15.0
+1062,Amit,Bangalore ,Monitor,Electronics,2024-10-30,,12554 INR,15.0
+1053,Amit,Mumbai ,Printer,Electronics,2023-07-10,1,29135 INR,20.0
+1182,Karan,Pune,Mouse,Accessories,2023-04-10,,30806 INR,20.0
+1190,Anita,Bangalore ,Printer,Electronics,2024-07-08,3,39509 INR,10.0
+1135,Meena,Kolkata ,Printer,Electronics,2023-09-19,,,15.0
+1142,Anita,,Keyboard,Accessories,09/06/2023,1,,10.0
+1104,Meena,kolkata,Monitor,Electronics,10/02/2024,,35731,10.0
+1193,Anita,,Monitor,Electronics,11-11-2024,7,21432 INR,15.0
+1107,David,Pune,Monitor,Electronics,,,26717 INR,20.0
+1063,John,,Mouse,Accessories,2023-05-22,,₹2403,
+1051,Meena,chennai,Monitor,Electronics,31/10/2024,,45350,10.0
+1062,Anita,Mumbai,Keyboard,Accessories,,10,,5.0
+1006,Anita,Chennai,Laptop,Electronics,2024-06-16,,,20.0
+1184,John,delhi,Laptop,Electronics,,5,19699,15.0
+1193,Rahul,Bangalore,Monitor,Electronics,2024-05-09,8,₹22771,15.0
+1144,Meena,Kolkata ,Keyboard,Accessories,2023-09-22,4,,15.0
+1098,Rahul,pune,Keyboard,Accessories,11-20-2024,10,37700 INR,10.0
+1088,John,,Laptop,Electronics,09-23-2023,8,₹38722,
+1079,Priya,Mumbai,Printer,Electronics,,2,,10.0
+1051,Meena,Chennai,Mouse,Accessories,,,18739,5.0
+1046,Priya,chennai,Monitor,Electronics,2023-10-05,,41551,10.0
+1062,Karan,Mumbai ,Monitor,Electronics,12/10/2023,1,40420 INR,
+1138,Karan,Chennai,Monitor,Electronics,11/10/2024,8,30926,10.0
+1153,Rahul,,Printer,Electronics,,5,32431,20.0
+1124,Amit,Pune ,Mouse,Accessories,03/11/2023,8,32172 INR,15.0
+1054,Rahul,chennai,Printer,Electronics,11-20-2024,4,₹32991,
+1169,John,,Keyboard,Accessories,16/09/2024,,21472,15.0
+1080,Anita,Mumbai ,Printer,Electronics,,,,15.0
+1169,Rahul,Chennai ,Monitor,Electronics,02-23-2024,1,37415,15.0
+1062,John,,Keyboard,Accessories,25/07/2024,5,,15.0
+1163,Meena,,Monitor,Electronics,04/02/2024,1,47768,15.0
+1051,Rohit,chennai,Printer,Electronics,03-17-2023,,24712,5.0
+1054,John,Pune ,Monitor,Electronics,2024-07-24,,38034 INR,15.0
+1101,Anita,pune,Monitor,Electronics,09-23-2023,7,24237 INR,5.0
+1023,Rohit,Bangalore ,Printer,Electronics,02-02-2023,,4450,5.0
+1084,Sara,,Printer,Electronics,2024-09-16,,,10.0
+1109,John,Delhi,Printer,Electronics,08-11-2024,4,,15.0
+1046,Sara,kolkata,Mouse,Accessories,07-25-2023,4,,5.0
+1059,Priya,Mumbai ,Printer,Electronics,02/12/2023,7,8844 INR,15.0
+1151,Sara,,Laptop,Electronics,,4,,5.0
+1023,Rohit,Bangalore ,Mouse,Accessories,,7,33707,15.0
+1166,Rahul,Bangalore ,Monitor,Electronics,,2,,10.0
+1132,John,mumbai,Laptop,Electronics,10-24-2024,10,,10.0
+1171,John,chennai,Monitor,Electronics,,,₹4509,15.0
+1120,Amit,Bangalore,Laptop,Electronics,10-02-2024,1,₹2464,10.0
+1106,Rohit,Mumbai,Monitor,Electronics,01-16-2023,8,₹35855,20.0
+1126,Karan,Kolkata ,Mouse,Accessories,25/04/2024,2,547 INR,10.0
+1047,Rahul,Pune,Mouse,Accessories,2023-08-19,4,₹34233,15.0
+1046,Amit,Pune,Monitor,Electronics,03-08-2024,7,34573 INR,10.0
+1159,Rahul,,Laptop,Electronics,,4,26502 INR,
+1016,Meena,Chennai,Monitor,Electronics,09-19-2023,9,18804 INR,20.0
+1129,John,,Laptop,Electronics,05-04-2023,7,₹8772,20.0
+1058,Rohit,Kolkata,Printer,Electronics,23/07/2023,,₹9787,10.0
+1102,Rahul,,Keyboard,Accessories,11/10/2024,4,₹7062,20.0
+1017,Amit,Kolkata ,Printer,Electronics,2023-05-20,,31171 INR,20.0
+1070,John,kolkata,Mouse,Accessories,,6,₹32018,20.0
+1026,Karan,Bangalore,Laptop,Electronics,05-26-2023,,₹48974,20.0
+1028,Anita,Bangalore ,Mouse,Accessories,16/09/2024,7,43781,20.0
+1110,David,Kolkata ,Printer,Electronics,2023-10-26,,,5.0
+1182,Anita,Bangalore ,Laptop,Electronics,06-04-2024,2,48501 INR,10.0
+1097,Amit,,Printer,Electronics,,,,
+1146,Rohit,Chennai,Laptop,Electronics,,8,39188,5.0
+1116,Rahul,Delhi ,Monitor,Electronics,2023-08-10,,41664,15.0
+1127,Sara,Kolkata ,Keyboard,Accessories,04-14-2024,7,,15.0
+1067,Anita,,Keyboard,Accessories,2023-11-21,3,₹35773,15.0
+1101,Karan,Bangalore ,Keyboard,Accessories,2023-06-22,9,₹24188,5.0
+1021,Meena,Chennai,Mouse,Accessories,12-15-2023,,,10.0
+1055,John,pune,Monitor,Electronics,,,₹16615,5.0
+1066,Meena,,Keyboard,Accessories,29/02/2024,,,15.0
+1121,Rohit,pune,Monitor,Electronics,01/01/2024,,15881 INR,15.0
+1151,David,,Laptop,Electronics,,8,47692 INR,5.0
+1007,Karan,Delhi ,Mouse,Accessories,2023-12-22,,1949,20.0
+1150,Meena,,Monitor,Electronics,11-14-2023,,₹9239,5.0
+1198,John,chennai,Printer,Electronics,2024-08-24,,49944 INR,10.0
+1121,John,,Laptop,Electronics,,,43059,15.0
+1162,Sara,bangalore,Mouse,Accessories,2024-03-16,,₹20894,15.0
+1001,Meena,bangalore,Monitor,Electronics,2023-01-21,1,34832 INR,20.0
+1095,Karan,Mumbai ,Keyboard,Accessories,,,37420 INR,10.0
+1046,Karan,Bangalore ,Monitor,Electronics,2024-03-31,,₹12132,
+1036,Priya,Chennai,Mouse,Accessories,,4,₹33114,20.0
+1179,Rohit,Pune ,Mouse,Accessories,2024-05-06,,26995,
+1125,Amit,,Monitor,Electronics,19/05/2023,7,13668 INR,20.0
+1146,Rohit,Kolkata,Laptop,Electronics,2023-11-10,,,10.0
+1130,Meena,,Keyboard,Accessories,07/11/2023,9,48947,5.0
+1176,Sara,Mumbai,Mouse,Accessories,,1,₹30465,15.0
+1174,Karan,mumbai,Laptop,Electronics,,5,₹43727,15.0
+1177,David,Chennai ,Mouse,Accessories,,,,5.0
+1189,Rahul,chennai,Monitor,Electronics,2023-03-14,9,₹43947,20.0
+1120,Anita,kolkata,Keyboard,Accessories,03/05/2023,3,19158 INR,5.0
+1169,Rohit,bangalore,Laptop,Electronics,,8,₹2992,10.0
+1074,Rohit,Bangalore,Mouse,Accessories,16/12/2023,7,48007,5.0
+1140,Meena,Kolkata ,Mouse,Accessories,,9,13236 INR,5.0
+1144,Amit,mumbai,Laptop,Electronics,11-26-2023,1,45376,20.0
+1115,Priya,,Printer,Electronics,2024-07-31,10,8340,20.0
+1094,Amit,mumbai,Printer,Electronics,04-10-2024,7,,20.0
+1187,Anita,,Keyboard,Accessories,21/08/2023,7,,20.0
+1168,Karan,mumbai,Monitor,Electronics,13/02/2024,,22638 INR,15.0
+1013,Priya,,Monitor,Electronics,,10,25063 INR,10.0
+1190,Karan,,Keyboard,Accessories,,3,,10.0
+1005,Amit,Chennai,Monitor,Electronics,24/04/2024,2,,5.0
+1044,Rahul,,Keyboard,Accessories,2023-06-04,,₹21032,15.0
+1169,John,,Laptop,Electronics,,5,₹10973,20.0
+1114,Amit,,Laptop,Electronics,2024-01-24,10,,20.0
+1182,Sara,Pune,Printer,Electronics,05-19-2023,6,6071 INR,15.0
+1013,Priya,Kolkata,Printer,Electronics,09/01/2024,8,,15.0
+1146,Amit,kolkata,Keyboard,Accessories,2023-10-07,,29921,15.0
+1088,Rahul,,Monitor,Electronics,,7,,
+1045,Meena,delhi,Mouse,Accessories,03-28-2023,2,32535,5.0
+1031,Amit,,Mouse,Accessories,2023-01-10,,37980,10.0
+1135,Priya,Mumbai,Mouse,Accessories,04/01/2023,,49394,20.0
+1067,John,Chennai,Mouse,Accessories,2024-04-25,2,₹32960,
+1163,Rahul,Pune ,Printer,Electronics,11/07/2023,,12908,10.0
+1187,Amit,Bangalore,Monitor,Electronics,11-01-2024,8,₹23094,
+1081,Anita,Kolkata,Monitor,Electronics,04-01-2023,,,15.0
+1083,David,Delhi ,Monitor,Electronics,13/07/2024,8,,20.0
+1169,John,,Monitor,Electronics,05-23-2023,1,,10.0
+1140,Rahul,,Printer,Electronics,06-03-2023,3,12552,10.0
+1122,Karan,Pune,Mouse,Accessories,,,,15.0
+1031,Karan,Bangalore ,Mouse,Accessories,01-14-2023,,₹34497,10.0
+1083,Priya,Chennai ,Printer,Electronics,,7,47997 INR,15.0
+1120,Amit,kolkata,Monitor,Electronics,11/05/2023,,22831 INR,15.0
+1199,Priya,Pune ,Printer,Electronics,,8,₹25675,15.0
+1080,Karan,kolkata,Mouse,Accessories,01-04-2023,6,₹4368,
+1036,Rahul,Mumbai,Mouse,Accessories,07-19-2023,5,42825,5.0
+1027,Rahul,chennai,Laptop,Electronics,,8,43205,20.0
+1094,John,Bangalore,Keyboard,Accessories,16/06/2023,9,,15.0
+1010,Rohit,Delhi ,Monitor,Electronics,28/11/2023,,,5.0
+1105,Meena,Delhi ,Mouse,Accessories,15/04/2023,6,₹4686,5.0
+1014,Rohit,Mumbai,Monitor,Electronics,2024-10-19,5,,5.0
+1171,David,Kolkata ,Laptop,Electronics,13/02/2023,,,5.0
+1089,Sara,delhi,Printer,Electronics,11/03/2023,10,,
+1065,Meena,,Keyboard,Accessories,01-08-2023,,₹11259,10.0
+1052,Priya,Mumbai,Keyboard,Accessories,,,8309 INR,
+1046,Meena,Kolkata,Keyboard,Accessories,19/04/2024,5,14547 INR,10.0
+1027,Amit,Kolkata ,Monitor,Electronics,05/02/2024,,47683 INR,5.0
+1095,Sara,delhi,Printer,Electronics,31/03/2024,,3778,15.0
+1028,Sara,Chennai,Monitor,Electronics,05-26-2023,8,43336,10.0
+1173,David,pune,Monitor,Electronics,,2,37032 INR,5.0
+1006,Rahul,Bangalore ,Laptop,Electronics,2023-06-29,4,,10.0
+1153,Meena,Mumbai,Mouse,Accessories,,5,45698,20.0
+1095,Anita,,Monitor,Electronics,05-30-2023,10,24962 INR,15.0
+1165,Anita,Kolkata ,Keyboard,Accessories,02-22-2024,6,,20.0
+1177,David,pune,Printer,Electronics,05-29-2023,10,3302 INR,5.0
+1029,Meena,kolkata,Monitor,Electronics,2024-06-16,6,7832,15.0
+1000,Rohit,,Printer,Electronics,,,,5.0
+1075,Sara,pune,Monitor,Electronics,20/02/2024,1,46043 INR,10.0
+1053,Rahul,Delhi ,Mouse,Accessories,03-08-2024,7,4892 INR,20.0
+1197,Sara,Delhi ,Printer,Electronics,,,39145,20.0
+1183,Sara,Delhi,Printer,Electronics,,,,20.0
+1172,Amit,Mumbai,Monitor,Electronics,,,,
+1041,Amit,,Monitor,Electronics,2023-10-09,8,,15.0
+1046,Priya,delhi,Printer,Electronics,,1,₹28466,15.0
+1178,David,Mumbai,Printer,Electronics,14/04/2023,8,,5.0
+1067,Meena,,Printer,Electronics,02-04-2023,2,45969,20.0
+1017,John,Chennai ,Monitor,Electronics,15/06/2023,5,33734,
+1003,Sara,Pune,Monitor,Electronics,31/05/2023,,₹37178,
+1025,John,,Keyboard,Accessories,,8,1080 INR,20.0
+1160,David,Delhi,Printer,Electronics,14/11/2024,10,42010,15.0
+1057,John,Pune ,Mouse,Accessories,2023-02-13,,,20.0
+1021,John,Chennai,Printer,Electronics,06-17-2024,,₹27142,5.0
+1143,Karan,,Keyboard,Accessories,11-07-2023,,,
+1058,Meena,Bangalore ,Printer,Electronics,2024-05-16,,9495,15.0
+1197,Rahul,,Mouse,Accessories,,4,23340 INR,10.0
+1162,Meena,Pune ,Keyboard,Accessories,18/04/2024,,36735 INR,10.0
+1140,David,Mumbai,Monitor,Electronics,04-15-2024,2,,5.0
+1121,David,,Laptop,Electronics,,8,,20.0
+1175,David,Kolkata ,Keyboard,Accessories,2024-01-06,,8327,10.0
+1146,Rahul,chennai,Laptop,Electronics,10-01-2024,,43773,
+1157,Rahul,kolkata,Keyboard,Accessories,25/06/2023,,2004 INR,20.0
+1078,David,Mumbai,Laptop,Electronics,15/04/2024,,₹16634,
+1138,Rahul,,Printer,Electronics,,10,₹29739,10.0
+1178,David,Mumbai ,Monitor,Electronics,,,22932 INR,10.0
+1165,Sara,,Monitor,Electronics,09-12-2023,1,21092 INR,20.0
+1058,Rahul,Pune,Laptop,Electronics,,5,23121 INR,15.0
+1040,Sara,Delhi,Keyboard,Accessories,22/10/2024,,₹10861,
+1133,Sara,bangalore,Printer,Electronics,02/06/2023,7,5694 INR,10.0
+1197,Sara,mumbai,Laptop,Electronics,,10,₹3917,15.0
+1128,Rohit,delhi,Mouse,Accessories,06/06/2023,5,30812 INR,5.0
+1028,Priya,bangalore,Monitor,Electronics,09-05-2023,,,10.0
+1103,Rohit,,Printer,Electronics,,,,20.0
+1094,Rahul,Kolkata,Printer,Electronics,20/06/2024,,,5.0
+1194,John,,Printer,Electronics,,,25137 INR,15.0
+1106,Amit,Chennai ,Monitor,Electronics,,4,₹9826,10.0
+1122,Amit,Delhi ,Mouse,Accessories,,,19860 INR,20.0
+1055,Rohit,Pune ,Laptop,Electronics,2024-06-02,,13179 INR,15.0
+1195,Rohit,Bangalore,Laptop,Electronics,12-01-2023,8,,5.0
+1023,Karan,Pune ,Printer,Electronics,,3,48253,20.0
+1145,Rahul,,Keyboard,Accessories,13/01/2023,,26347,10.0
+1157,Meena,Mumbai,Laptop,Electronics,,8,2955 INR,20.0
+1005,David,Pune ,Keyboard,Accessories,11/11/2024,10,36408 INR,20.0
+1039,Sara,delhi,Keyboard,Accessories,08-28-2024,4,,
+1111,David,,Printer,Electronics,12-06-2023,2,,20.0
+1073,Priya,chennai,Mouse,Accessories,02/05/2023,7,2505 INR,
+1126,Sara,Delhi,Mouse,Accessories,2024-08-30,9,39689 INR,10.0
+1025,Amit,Pune,Laptop,Electronics,01-11-2024,5,636,
+1016,Anita,Bangalore,Laptop,Electronics,2023-06-24,10,₹40762,
+1130,Rahul,chennai,Keyboard,Accessories,08-18-2023,8,10814,15.0
+1037,Sara,Pune,Monitor,Electronics,04/09/2023,1,20771 INR,20.0
+1150,Rahul,,Mouse,Accessories,24/11/2023,,5313 INR,10.0
+1168,David,,Monitor,Electronics,2024-02-05,8,₹2717,15.0
+1037,Amit,,Monitor,Electronics,19/11/2023,8,,10.0
+1000,Sara,Bangalore ,Mouse,Accessories,2023-07-27,6,32963 INR,20.0
+1184,Karan,chennai,Printer,Electronics,06-01-2024,1,10186 INR,
+1115,Rahul,chennai,Keyboard,Accessories,2023-12-07,6,3417 INR,15.0
+1012,Sara,mumbai,Laptop,Electronics,29/09/2023,1,38482 INR,15.0
+1143,Meena,Kolkata ,Printer,Electronics,,4,1571 INR,10.0
+1074,Rahul,delhi,Printer,Electronics,03/12/2023,,,20.0
+1000,Priya,Kolkata,Mouse,Accessories,10-23-2023,2,₹13875,5.0
+1090,John,Chennai ,Keyboard,Accessories,,2,30075 INR,20.0
+1087,David,bangalore,Mouse,Accessories,30/03/2023,8,36237,20.0
+1197,Anita,Kolkata,Laptop,Electronics,,,₹26875,20.0
+1001,Meena,Delhi ,Keyboard,Accessories,2023-02-07,,42608,20.0
+1163,Meena,Pune ,Laptop,Electronics,,2,9287,10.0
+1019,Rohit,bangalore,Keyboard,Accessories,26/02/2023,6,35698,15.0
+1153,Sara,Bangalore,Laptop,Electronics,01-27-2023,,48906 INR,15.0
+1193,Rohit,Kolkata,Laptop,Electronics,07/07/2023,,22374 INR,5.0
+1189,Amit,,Printer,Electronics,2024-07-19,6,36286 INR,10.0
+1063,Sara,Delhi ,Laptop,Electronics,04-25-2024,,6681,15.0
+1001,Rohit,pune,Mouse,Accessories,18/01/2023,4,12632,15.0
+1105,Karan,Bangalore ,Printer,Electronics,,,₹12791,15.0
+1047,Karan,delhi,Keyboard,Accessories,,,,5.0
+1053,Sara,Mumbai,Mouse,Accessories,,,₹47100,5.0
+1169,Priya,,Monitor,Electronics,2023-05-28,5,,10.0
+1200,Amit,,Mouse,Accessories,,8,₹23645,20.0
+1116,Meena,,Printer,Electronics,10-18-2023,,19444,15.0
+1124,David,mumbai,Mouse,Accessories,04/02/2024,,45617 INR,10.0
+1145,Sara,Bangalore ,Printer,Electronics,06-18-2024,7,33903,10.0
+1123,Priya,,Keyboard,Accessories,2024-10-04,10,₹16510,10.0
+1159,Priya,Pune ,Laptop,Electronics,06/10/2023,7,,10.0
+1035,Priya,Mumbai,Keyboard,Accessories,,,,20.0
