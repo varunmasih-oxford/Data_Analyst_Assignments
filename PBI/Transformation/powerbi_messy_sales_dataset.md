@@ -216,6 +216,37 @@ Or use:
 
 Using Locale → Date → English (India)
 
+Or 
+Split the date using the delimiter -.
+
+Select Column → Split Column → By Delimiter → "-"
+
+You will get:
+
+Date.1
+Date.2
+Date.3
+
+Now create a Custom Column:
+
+Add Column → Custom Column
+
+Use this formula:
+
+let
+    a = Number.From([Date.1]),
+    b = Number.From([Date.2]),
+    c = Number.From([Date.3])
+in
+    if a > 1900 then
+        #date(a, b, c)        // YYYY-MM-DD
+    else if c > 1900 and a > 12 then
+        #date(c, b, a)        // DD-MM-YYYY
+    else if c > 1900 and b > 12 then
+        #date(c, a, b)        // MM-DD-YYYY
+    else
+        #date(c, b, a)
+
 ------------------------------------------------------------------------
 
 # Step 8 Handle Discount Null Values
