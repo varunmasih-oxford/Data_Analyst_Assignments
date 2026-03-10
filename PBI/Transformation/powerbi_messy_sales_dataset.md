@@ -232,7 +232,7 @@ Now create a Custom Column:
 Add Column → Custom Column
 
 Use this formula:
-
+```
 let
     a = Number.From([Date.1]),
     b = Number.From([Date.2]),
@@ -246,7 +246,7 @@ in
         #date(c, a, b)        // MM-DD-YYYY
     else
         #date(c, b, a)
-
+```
 ------------------------------------------------------------------------
 
 # Step 8 Handle Discount Null Values
