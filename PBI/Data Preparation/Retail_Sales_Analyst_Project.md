@@ -1,9 +1,5 @@
 # Sales Data Analyst – Practical Project
 
-Retail Business Intelligence Solutions & Reporting | StoreTech UK
-
-[storetech.com](<https://www.storetech.com/business-intelligence?utm_source=chatgpt.com>)
-
 # Retail Sales Performance Analysis
 
 Beginner to IntermediateHands-on ProjectData CleaningBusiness Analysis
@@ -196,10 +192,6 @@ Once your dataset is clean, answer these business questions.
 ## 7. Suggested dashboard design
 
 After completing your analysis, build a Sales Performance Dashboard.
-
-Power BI for Learners Part 12: Advanced Features, AI Capabilities, and the Future of Power BI | by David Marvellous | Power BI Masterclass | Mar, 2026 | Medium
-
-[medium.com](<https://medium.com/microsoft-power-bi/power-bi-for-learners-part-12-advanced-features-ai-capabilities-and-the-future-of-power-bi-53f65d78532d?utm_source=chatgpt.com>)
 
 Your dashboard should contain:
 
