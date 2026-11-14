@@ -1,9 +1,34 @@
-Assignment: Power Query — Date, Time & Duration Column Practice Set
 
-## Dataset: Sales\_Data
+# Power Query Assignment: Date, Time & Duration Practice Set
 
-| Order\_ID | Date | Time | Region | City | Salesperson | Category | Product | Sales | Delivery\_Date | Delivery\_Time | Processing\_Duration |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+## Dataset: Sales_Data
+
+**Total Records:** 30  
+**Total Columns:** 12
+
+## Objective
+
+Practice Date, Time and Duration transformations in Power Query using one combined Sales_Data dataset.
+
+Skills covered:
+
+- Date extraction and calculations
+- Time extraction and calculations
+- Duration transformations
+- Date and Time combination
+- Delivery time analysis
+- Business reporting
+- Conditional columns
+- Date-based business keys
+
+---
+
+# Part 1: Combined Sales_Data Dataset
+
+Copy this dataset into Excel and convert it into an Excel Table named `Sales_Data`.
+
+| Order_ID | Date | Time | Region | City | Salesperson | Category | Product | Sales | Delivery_Date | Delivery_Time | Processing_Duration |
+|---|---|---|---|---|---|---|---|---:|---|---|---|
 | 1001 | 01-01-2026 | 09:15:00 | North | Delhi | Amit | Electronics | Laptop | 55000 | 03-01-2026 | 12:15:00 | 03:00:00 |
 | 1002 | 02-01-2026 | 10:30:00 | West | Mumbai | Neha | Electronics | Mobile | 25000 | 05-01-2026 | 15:30:00 | 05:30:00 |
 | 1003 | 03-01-2026 | 14:45:00 | South | Bangalore | Rahul | Furniture | Chair | 5000 | 08-01-2026 | 16:45:00 | 02:15:00 |
@@ -35,11 +60,13 @@ Assignment: Power Query — Date, Time & Duration Column Practice Set
 | 1029 | 05-11-2026 | 10:40:00 | East | Kolkata | Priya | Electronics | Mobile | 27000 | 09-11-2026 | 13:40:00 | 03:00:00 |
 | 1030 | 10-11-2026 | 15:25:00 | North | Noida | Suresh | Furniture | Table | 16000 | 13-11-2026 | 18:25:00 | 03:00:00 |
 
-## Data types to apply in Power Query
+---
+
+# Part 2: Data Types
 
 | Column | Data Type |
-| --- | --- |
-| Order\_ID | Whole Number |
+|---|---|
+| Order_ID | Whole Number |
 | Date | Date |
 | Time | Time |
 | Region | Text |
@@ -48,1043 +75,542 @@ Assignment: Power Query — Date, Time & Duration Column Practice Set
 | Category | Text |
 | Product | Text |
 | Sales | Whole Number |
-| Delivery\_Date | Date |
-| Delivery\_Time | Time |
-| Processing\_Duration | Duration |
+| Delivery_Date | Date |
+| Delivery_Time | Time |
+| Processing_Duration | Duration |
 
-Objective
+**Important:** Set the correct data types before starting the exercises. Use Change Type → Using Locale if date formats are interpreted incorrectly.
 
-Practice the following Power Query Date, Time and Duration Column options:
+---
 
-Date transformations
-Time transformations
-Duration transformations
-Extracting date and time components
-Calculating date differences
-Calculating time differences
-Creating business reporting columns
-Combining Date, Time and Duration transformations
+# Part 3: Level 1 — Date Transformations
 
-Important: Complete all exercises using Power Query transformations. Do not manually edit the source data.
+### Task 1: Extract Year
 
-Level 1 — Date Transformations
-Task 1: Extract Year from Date
+Use Date → Year → Year.
 
-Use the Date column.
+Create: `Order_Year`
 
-Apply:
+### Task 2: Extract Month Number
 
-Transform → Date → Year → Year
+Use Date → Month → Month.
 
-Create a new column:
+Create: `Order_Month`
 
-Order_Year
+### Task 3: Extract Month Name
 
-Expected result:
+Use Date → Month → Name of Month.
 
-Date	Order_Year
-01-01-2026	2026
-15-02-2026	2026
-20-03-2025	2025
-Task 2: Extract Month Number
+Create: `Month_Name`
 
-Use the Date column.
+### Task 4: Extract Day of Month
 
-Apply:
+Use Date → Day → Day.
 
-Transform → Date → Month → Month
+Create: `Order_Day`
 
-Create:
+### Task 5: Extract Day Name
 
-Order_Month
+Use Date → Day → Name of Day.
 
-Expected result:
+Create: `Day_Name`
 
-Date	Order_Month
-01-01-2026	1
-15-02-2026	2
-20-03-2025	3
-Task 3: Extract Month Name
+### Task 6: Extract Day of Week
 
-Use:
+Use Date → Day → Day of Week.
 
-Transform → Date → Month → Name of Month
+Create: `Day_Of_Week`
 
-Create:
+Note: Sunday = 0.
 
-Month_Name
+### Task 7: Extract Quarter
 
-Expected result:
+Use Date → Quarter → Quarter of Year.
 
-Date	Month_Name
-01-01-2026	January
-15-02-2026	February
-20-03-2025	March
-Task 4: Extract Day of Month
+Create: `Order_Quarter`
 
-Use:
+### Task 8: Extract Start of Month
 
-Transform → Date → Day → Day
+Use Date → Month → Start of Month.
 
-Create:
+Create: `Month_Start_Date`
 
-Order_Day
+### Task 9: Extract End of Month
 
-Expected result:
+Use Date → Month → End of Month.
 
-Date	Order_Day
-01-01-2026	1
-15-02-2026	15
-20-03-2025	20
-Task 5: Extract Day Name
+Create: `Month_End_Date`
 
-Use:
+### Task 10: Extract Start of Year
 
-Transform → Date → Day → Name of Day
+Use Date → Year → Start of Year.
 
-Create:
+Create: `Year_Start_Date`
 
-Day_Name
+---
 
-Expected result:
+# Part 4: Level 2 — Date Calculations
 
-Date	Day_Name
-01-01-2026	Thursday
-02-01-2026	Friday
-03-01-2026	Saturday
-Task 6: Extract Day of Week
+### Task 11: Add 7 Days
+
+Create: `Date_After_7_Days`
+
+### Task 12: Subtract 10 Days
+
+Create: `Date_Before_10_Days`
+
+### Task 13: Add 3 Months
+
+Create: `Date_After_3_Months`
+
+### Task 14: Add 1 Year
+
+Create: `Date_After_1_Year`
+
+### Task 15: Calculate Days Between Order and Delivery
 
 Use:
 
-Transform → Date → Day → Day of Week
+- Date
+- Delivery_Date
 
-Create:
+Create: `Delivery_Days`
 
-Day_Of_Week
+Calculate:
 
-Expected result:
+`Delivery_Date - Date`
 
-Date	Day_Of_Week
-01-01-2026	3
-02-01-2026	4
-03-01-2026	5
+### Task 16: Calculate Days Until Month End
 
-Note: Power Query numbers weekdays starting with Sunday = 0.
+Create: `Days_To_Month_End`
 
-Task 7: Extract Quarter of Year
+Calculate:
 
-Use:
+`Month_End_Date - Date`
 
-Transform → Date → Quarter → Quarter of Year
+### Task 17: Create Financial Quarter
 
-Create:
+Create: `Financial_Quarter`
 
-Order_Quarter
+Expected values:
 
-Expected result:
+- Q1
+- Q2
+- Q3
+- Q4
 
-Date	Order_Quarter
-15-01-2026	1
-15-04-2026	2
-15-07-2026	3
-15-10-2026	4
-Task 8: Extract Start of Month
+### Task 18: Create Year-Month
 
-Use:
+Create: `Year_Month`
 
-Transform → Date → Month → Start of Month
+Example: `2026-01`
 
-Create:
+---
 
-Month_Start_Date
+# Part 5: Level 3 — Time Transformations
 
-Expected result:
+### Task 19: Extract Hour
 
-Date	Month_Start_Date
-15-01-2026	01-01-2026
-20-02-2026	01-02-2026
-25-03-2026	01-03-2026
-Task 9: Extract End of Month
+Use Time → Hour.
 
-Use:
+Create: `Order_Hour`
 
-Transform → Date → Month → End of Month
+### Task 20: Extract Minute
 
-Create:
+Use Time → Minute.
 
-Month_End_Date
+Create: `Order_Minute`
 
-Expected result:
+### Task 21: Extract Second
 
-Date	Month_End_Date
-15-01-2026	31-01-2026
-20-02-2026	28-02-2026
-25-03-2026	31-03-2026
-Task 10: Extract Start of Year
+Use Time → Second.
 
-Use:
+Create: `Order_Second`
 
-Transform → Date → Year → Start of Year
+### Task 22: Extract Start of Hour
 
-Create:
+Use Time → Start of Hour.
 
-Year_Start_Date
+Create: `Hour_Start`
 
-Expected result:
+### Task 23: Extract Start of Minute
 
-Date	Year_Start_Date
-15-01-2026	01-01-2026
-20-06-2026	01-01-2026
-25-03-2025	01-01-2025
-Level 2 — Date Calculations
-Task 11: Add Days to Date
+Use Time → Start of Minute.
 
-Use:
+Create: `Minute_Start`
 
-Add Column → Date → Add Days
+### Task 24: Extract End of Hour
 
-Add 7 days to the Date column.
+Use Time → End of Hour.
 
-Create:
+Create: `Hour_End`
 
-Date_After_7_Days
+### Task 25: Create Time Category
 
-Expected result:
+Create: `Time_Category`
 
-Date	Date_After_7_Days
-01-01-2026	08-01-2026
-15-02-2026	22-02-2026
-25-12-2025	01-01-2026
-Task 12: Subtract Days from Date
+Conditions:
 
-Subtract 10 days from the Date column.
+- Before 12:00 = Morning
+- 12:00 to 17:00 = Afternoon
+- After 17:00 = Evening
 
-Create:
+---
 
-Date_Before_10_Days
+# Part 6: Level 4 — Duration Transformations
 
-Expected result:
+Use `Processing_Duration`.
 
-Date	Date_Before_10_Days
-15-01-2026	05-01-2026
-10-02-2026	31-01-2026
-Task 13: Add Months to Date
+### Task 26: Extract Duration Days
 
-Add 3 months to the Date column.
+Create: `Duration_Days`
 
-Create:
+### Task 27: Extract Total Hours
 
-Date_After_3_Months
+Create: `Total_Hours`
 
-Expected result:
+### Task 28: Extract Total Minutes
 
-Date	Date_After_3_Months
-15-01-2026	15-04-2026
-10-02-2026	10-05-2026
-20-11-2025	20-02-2026
-Task 14: Add Years to Date
+Create: `Total_Minutes`
 
-Add 1 year to the Date column.
+### Task 29: Extract Total Seconds
 
-Create:
+Create: `Total_Seconds`
 
-Date_After_1_Year
+### Task 30: Extract Duration Hours Component
 
-Expected result:
+Create: `Duration_Hours`
 
-Date	Date_After_1_Year
-15-01-2026	15-01-2027
-20-06-2025	20-06-2026
-Task 15: Calculate Days Between Dates
+### Task 31: Extract Duration Minutes Component
 
-Create a custom column using two date columns:
+Create: `Duration_Minutes`
 
-Order_Date
-Delivery_Date
+### Task 32: Extract Duration Seconds Component
 
-Calculate the difference.
+Create: `Duration_Seconds`
 
-Create:
+### Task 33: Add Two Durations
 
-Delivery_Days
+Create two additional duration columns:
 
-Expected result:
+- Processing_Time
+- Shipping_Time
 
-Order_Date	Delivery_Date	Delivery_Days
-01-01-2026	05-01-2026	4
-10-02-2026	15-02-2026	5
-20-03-2026	28-03-2026	8
-Task 16: Calculate Days Until Month End
+Add both columns.
 
-Use:
+Create: `Total_Duration`
 
-Date → End of Month
+---
 
-Then calculate the difference between:
+# Part 7: Level 5 — Combined Date, Time and Duration Transformations
 
-Date
-Month_End_Date
-
-Create:
-
-Days_To_Month_End
-
-Expected result:
-
-Date	Month_End_Date	Days_To_Month_End
-01-01-2026	31-01-2026	30
-15-02-2026	28-02-2026	13
-20-03-2026	31-03-2026	11
-Task 17: Create Financial Quarter
-
-Use the Date column.
-
-Create a custom column that displays:
-
-Q1
-Q2
-Q3
-Q4
-
-Create:
-
-Financial_Quarter
-
-Expected result:
-
-Date	Financial_Quarter
-15-01-2026	Q1
-15-04-2026	Q2
-15-07-2026	Q3
-15-10-2026	Q4
-Task 18: Create Year-Month Column
-
-Combine the year and month from the Date column.
-
-Create:
-
-Year_Month
-
-Expected result:
-
-Date	Year_Month
-15-01-2026	2026-01
-20-02-2026	2026-02
-25-03-2025	2025-03
-Level 3 — Time Transformations
-
-For these exercises, use a Time column if available. Otherwise, create a practice Time column using the example values below.
-
-Example Time values:
-
-09:15:30, 10:30:45, 14:45:20, 16:20:10
-
-Task 19: Extract Hour
-
-Use:
-
-Transform → Time → Hour
-
-Create:
-
-Order_Hour
-
-Expected result:
-
-Time	Order_Hour
-09:15:30	9
-10:30:45	10
-14:45:20	14
-16:20:10	16
-Task 20: Extract Minute
-
-Use:
-
-Transform → Time → Minute
-
-Create:
-
-Order_Minute
-
-Expected result:
-
-Time	Order_Minute
-09:15:30	15
-10:30:45	30
-14:45:20	45
-16:20:10	20
-Task 21: Extract Second
-
-Use:
-
-Transform → Time → Second
-
-Create:
-
-Order_Second
-
-Expected result:
-
-Time	Order_Second
-09:15:30	30
-10:30:45	45
-14:45:20	20
-16:20:10	10
-Task 22: Extract Start of Hour
-
-Use:
-
-Transform → Time → Start of Hour
-
-Create:
-
-Hour_Start
-
-Expected result:
-
-Time	Hour_Start
-09:15:30	09:00:00
-10:30:45	10:00:00
-14:45:20	14:00:00
-Task 23: Extract Start of Minute
-
-Use:
-
-Transform → Time → Start of Minute
-
-Create:
-
-Minute_Start
-
-Expected result:
-
-Time	Minute_Start
-09:15:30	09:15:00
-10:30:45	10:30:00
-14:45:20	14:45:00
-Task 24: Extract End of Hour
-
-Use:
-
-Transform → Time → End of Hour
-
-Create:
-
-Hour_End
-
-Expected result:
-
-Time	Hour_End
-09:15:30	09:59:59
-10:30:45	10:59:59
-14:45:20	14:59:59
-Task 25: Create Time Category
-
-Use the Hour column.
-
-Create a custom column:
-
-Time_Category
-
-Apply the following conditions:
-
-Before 12:00 PM = Morning
-12:00 PM to 5:00 PM = Afternoon
-After 5:00 PM = Evening
-
-Expected result:
-
-Time	Time_Category
-09:15:30	Morning
-14:45:20	Afternoon
-18:30:00	Evening
-Level 4 — Duration Transformations
-
-For these exercises, create a practice Duration column or use the duration values provided.
-
-Example Duration values:
-
-00:30:00, 01:15:30, 02:45:00, 03:20:15
-
-Task 26: Extract Total Days from Duration
-
-Use a Duration column.
-
-Apply:
-
-Transform → Duration → Days
-
-Create:
-
-Duration_Days
-
-Expected result:
-
-Duration	Duration_Days
-1.00:00:00	1
-2.00:00:00	2
-3.00:00:00	3
-Task 27: Extract Total Hours
-
-Use:
-
-Transform → Duration → Total Hours
-
-Create:
-
-Total_Hours
-
-Expected result:
-
-Duration	Total_Hours
-00:30:00	0.5
-01:15:30	1.2583
-02:45:00	2.75
-Task 28: Extract Total Minutes
-
-Use:
-
-Transform → Duration → Total Minutes
-
-Create:
-
-Total_Minutes
-
-Expected result:
-
-Duration	Total_Minutes
-00:30:00	30
-01:15:00	75
-02:45:00	165
-Task 29: Extract Total Seconds
-
-Use:
-
-Transform → Duration → Total Seconds
-
-Create:
-
-Total_Seconds
-
-Expected result:
-
-Duration	Total_Seconds
-00:01:00	60
-00:05:00	300
-01:00:00	3600
-Task 30: Extract Duration Hours Component
-
-Use:
-
-Transform → Duration → Hours
-
-Create:
-
-Duration_Hours
-
-Expected result:
-
-Duration	Duration_Hours
-01:30:00	1
-02:45:00	2
-03:20:15	3
-Task 31: Extract Duration Minutes Component
-
-Use:
-
-Transform → Duration → Minutes
-
-Create:
-
-Duration_Minutes
-
-Expected result:
-
-Duration	Duration_Minutes
-01:30:00	30
-02:45:00	45
-03:20:15	20
-Task 32: Extract Duration Seconds Component
-
-Use:
-
-Transform → Duration → Seconds
-
-Create:
-
-Duration_Seconds
-
-Expected result:
-
-Duration	Duration_Seconds
-01:30:15	15
-02:45:30	30
-03:20:45	45
-Task 33: Add Two Durations
-
-Create two practice columns:
-
-Processing_Duration
-Shipping_Duration
-
-Add both duration columns.
-
-Create:
-
-Total_Duration
-
-Expected result:
-
-Processing_Duration	Shipping_Duration	Total_Duration
-00:30:00	01:00:00	01:30:00
-01:15:00	02:00:00	03:15:00
-02:30:00	00:45:00	03:15:00
-Level 5 — Combined Date, Time and Duration Transformations
-Task 34: Create Order DateTime
+### Task 34: Create Order DateTime
 
 Combine:
 
-Date
-Time
+- Date
+- Time
 
-Create a Date/Time column:
+Create: `Order_DateTime`
 
-Order_DateTime
-
-Example:
-
-Date	Time	Order_DateTime
-01-01-2026	09:15:00	01-01-2026 09:15:00
-02-01-2026	10:30:00	02-01-2026 10:30:00
-Task 35: Create Delivery DateTime
+### Task 35: Create Delivery DateTime
 
 Combine:
 
-Delivery_Date
-Delivery_Time
+- Delivery_Date
+- Delivery_Time
 
-Create:
+Create: `Delivery_DateTime`
 
-Delivery_DateTime
+### Task 36: Calculate Processing Duration
 
-Example:
+Calculate:
 
-Delivery_Date	Delivery_Time	Delivery_DateTime
-05-01-2026	14:30:00	05-01-2026 14:30:00
-Task 36: Calculate Order Processing Time
+`Delivery_DateTime - Order_DateTime`
 
-Calculate the difference between:
+Create: `Calculated_Processing_Duration`
 
-Order_DateTime
-Delivery_DateTime
+### Task 37: Calculate Processing Hours
 
-Create:
+Convert duration into total hours.
 
-Processing_Duration
+Create: `Processing_Hours`
 
-Expected result:
+### Task 38: Create Delivery Status
 
-Order_DateTime	Delivery_DateTime	Processing_Duration
-01-01-2026 09:00	01-01-2026 12:00	03:00:00
-02-01-2026 10:00	02-01-2026 15:30	05:30:00
-Task 37: Calculate Order Completion Hours
-
-Use the Processing_Duration column.
-
-Apply:
-
-Duration → Total Hours
-
-Create:
-
-Processing_Hours
-
-Expected result:
-
-Processing_Duration	Processing_Hours
-03:00:00	3
-05:30:00	5.5
-08:15:00	8.25
-Task 38: Create Delivery Status
-
-Use:
-
-Order_Date
-Delivery_Date
-
-Create a conditional column:
-
-Delivery_Status
+Create: `Delivery_Status`
 
 Conditions:
 
-Delivery_Date is before or equal to Order_Date + 3 days = On Time
-Delivery_Date is greater than Order_Date + 3 days = Delayed
+- Delivery within 3 days = On Time
+- Delivery after 3 days = Delayed
 
-Expected result:
+### Task 39: Create Weekend or Weekday
 
-Order_Date	Delivery_Date	Delivery_Status
-01-01-2026	03-01-2026	On Time
-01-01-2026	04-01-2026	On Time
-01-01-2026	06-01-2026	Delayed
-Task 39: Create Weekend or Weekday Classification
-
-Use the Date column.
-
-Create:
-
-Day_Type
+Create: `Day_Type`
 
 Conditions:
 
-Saturday or Sunday = Weekend
-Monday to Friday = Weekday
+- Saturday or Sunday = Weekend
+- Monday to Friday = Weekday
 
-Expected result:
+### Task 40: Create Order Age
 
-Date	Day_Name	Day_Type
-01-01-2026	Thursday	Weekday
-03-01-2026	Saturday	Weekend
-04-01-2026	Sunday	Weekend
-Task 40: Create Order Age
+Use a fixed reporting date of 14-11-2026.
 
-Use the Date column and a fixed reporting date of 14-11-2026.
+Calculate:
 
-Calculate the number of days between:
+`Reporting_Date - Date`
 
-Date
-Reporting_Date
+Create: `Order_Age_Days`
 
-Create:
+---
 
-Order_Age_Days
+# Part 8: Level 6 — Business Reporting Practice
 
-Expected result:
+### Task 41: Create Order Month Label
 
-Date	Reporting_Date	Order_Age_Days
-01-11-2026	14-11-2026	13
-05-11-2026	14-11-2026	9
-10-11-2026	14-11-2026	4
-Level 6 — Business Reporting Practice
-Task 41: Create Order Month Label
+Combine:
 
-Use:
+- Month_Name
+- Order_Year
 
-Month Name
-Year
+Create: `Order_Month_Label`
 
-Create:
+Example: January 2026
 
-Order_Month_Label
+### Task 42: Create Order Period
 
-Example:
+Combine:
 
-January 2026
+- Order_Year
+- Order_Quarter
 
-February 2026
+Create: `Order_Period`
 
-March 2026
+Example: 2026-Q1
 
-Task 42: Create Order Period
+### Task 43: Create Working Day Flag
 
-Create a custom column using:
+Create: `Working_Day_Flag`
 
-Year
-Quarter
+### Task 44: Create Delivery Performance Category
 
-Create:
-
-Order_Period
-
-Expected result:
-
-Date	Order_Period
-15-01-2026	2026-Q1
-15-04-2026	2026-Q2
-15-07-2026	2026-Q3
-Task 43: Create Working Day Flag
-
-Use the Date column.
-
-Create:
-
-Working_Day_Flag
+Use Delivery_Days.
 
 Conditions:
 
-Monday to Friday = Working Day
-Saturday and Sunday = Non-Working Day
-Task 44: Create Delivery Performance Category
+- 0–2 days = Excellent
+- 3–5 days = Good
+- 6–7 days = Average
+- More than 7 days = Poor
 
-Use the Delivery_Days column.
+Create: `Delivery_Performance`
 
-Create:
+### Task 45: Create Time Slot
 
-Delivery_Performance
-
-Conditions:
-
-0 to 2 days = Excellent
-3 to 5 days = Good
-6 to 7 days = Average
-More than 7 days = Poor
-Task 45: Create Time Slot
-
-Use the Time column.
-
-Create:
-
-Time_Slot
+Create: `Time_Slot`
 
 Conditions:
 
-06:00 to 11:59 = Morning Shift
-12:00 to 17:59 = Afternoon Shift
-18:00 to 23:59 = Evening Shift
-00:00 to 05:59 = Night Shift
-Task 46: Create Order Processing Category
+- 06:00–11:59 = Morning Shift
+- 12:00–17:59 = Afternoon Shift
+- 18:00–23:59 = Evening Shift
+- 00:00–05:59 = Night Shift
+
+### Task 46: Create Order Processing Category
 
 Use Processing_Hours.
 
-Create:
-
-Processing_Category
-
 Conditions:
 
-Less than or equal to 2 hours = Fast
-More than 2 and up to 5 hours = Normal
-More than 5 and up to 8 hours = Slow
-More than 8 hours = Very Slow
-Task 47: Create Monthly Sales Period
+- Up to 2 hours = Fast
+- More than 2 up to 5 hours = Normal
+- More than 5 up to 8 hours = Slow
+- More than 8 hours = Very Slow
 
-Use the Date column.
+Create: `Processing_Category`
 
-Create:
+### Task 47: Create Monthly Sales Period
 
-Sales_Period
+Create: `Sales_Period`
 
-Expected result:
+Example: Jan-2026
 
-Date	Sales_Period
-01-01-2026	Jan-2026
-15-02-2026	Feb-2026
-20-03-2026	Mar-2026
-Task 48: Create Date-Based Business Key
-
-Create:
-
-Date_Business_Key
+### Task 48: Create Date-Based Business Key
 
 Combine:
 
-Order Year
-Order Month
-Order Day
-Order ID
+- Order Year
+- Order Month
+- Order Day
+- Order_ID
 
-Example:
+Create: `Date_Business_Key`
 
-2026_01_01_1001
+Example: `2026_01_01_1001`
 
-Level 7 — Advanced Combined Challenges
-Challenge 1: Create Order Aging Category
+---
 
-Use the Order_Age_Days column.
+# Part 9: Level 7 — Advanced Combined Challenges
 
-Create:
+### Challenge 1: Create Order Aging Category
 
-Order_Aging_Category
+Create: `Order_Aging_Category`
 
 Conditions:
 
-0 to 7 days = Recent
-8 to 15 days = Moderate
-16 to 30 days = Old
-More than 30 days = Very Old
-Challenge 2: Create Delivery Time in Hours
+- 0–7 days = Recent
+- 8–15 days = Moderate
+- 16–30 days = Old
+- More than 30 days = Very Old
 
-Use:
+### Challenge 2: Create Delivery Time in Hours
 
-Order_DateTime
-Delivery_DateTime
+Calculate the difference between Order_DateTime and Delivery_DateTime.
 
-Calculate the difference.
+Create: `Delivery_Time_Hours`
 
-Create:
-
-Delivery_Time_Hours
-
-Convert the duration into total hours.
-
-Challenge 3: Create Monthly Order Code
-
-Create:
-
-Monthly_Order_Code
-
-Use:
-
-Year
-Month Number
-Order_ID
-
-Example:
-
-202601_1001
-
-Challenge 4: Create Week Number
-
-Use the Date column.
-
-Apply:
-
-Transform → Date → Week → Week of Year
-
-Create:
-
-Order_Week_Number
-
-Expected result:
-
-Date	Order_Week_Number
-01-01-2026	1
-15-02-2026	7
-20-03-2026	12
-
-Note: Week numbering can vary depending on the week-start convention.
-
-Challenge 5: Create Complete Order Timeline
-
-Create a column:
-
-Order_Timeline
+### Challenge 3: Create Monthly Order Code
 
 Combine:
 
-Order_DateTime
-Delivery_DateTime
-Processing_Duration
+- Year
+- Month Number
+- Order_ID
 
-Example:
+Create: `Monthly_Order_Code`
 
-01-01-2026 09:00 | 01-01-2026 12:00 | 03:00:00
+Example: `202601_1001`
 
-Apply appropriate formatting.
+### Challenge 4: Create Week Number
 
-Challenge 6: Create Business Reporting Calendar
+Use Date → Week → Week of Year.
 
-Create the following columns from the Date column:
+Create: `Order_Week_Number`
 
-Calendar_Year
-Calendar_Quarter
-Month_Number
-Month_Name
-Week_Number
-Day_Name
-Day_Type
-Month_Start_Date
-Month_End_Date
-Year_Start_Date
-Challenge 7: Create Complete Delivery Performance Report
+### Challenge 5: Create Complete Order Timeline
+
+Combine:
+
+- Order_DateTime
+- Delivery_DateTime
+- Processing_Duration
+
+Create: `Order_Timeline`
+
+### Challenge 6: Create Business Reporting Calendar
+
+Create:
+
+1. Calendar_Year
+2. Calendar_Quarter
+3. Month_Number
+4. Month_Name
+5. Week_Number
+6. Day_Name
+7. Day_Type
+8. Month_Start_Date
+9. Month_End_Date
+10. Year_Start_Date
+
+### Challenge 7: Create Complete Delivery Performance Report
 
 Use:
 
-Order_ID
-Order_Date
-Delivery_Date
-Delivery_Days
-Delivery_Status
-Delivery_Performance
+- Order_ID
+- Order_Date
+- Delivery_Date
+- Delivery_Days
+- Delivery_Status
+- Delivery_Performance
 
-Create a final reporting query showing all six columns.
+Sort Delivery_Days in descending order.
 
-Sort by Delivery_Days in descending order.
+---
 
-Submission Requirements
+# Part 10: Submission Requirements
 
-For each task:
+For every task:
 
-Load Sales_Data into Power Query.
-Create a duplicate query or reference query for practice.
-Use the appropriate Date, Time or Duration transformation.
-Rename columns clearly.
-Keep the original source columns unchanged wherever possible.
-Apply transformations in the correct order.
-Check the data type of each new column.
-Load the final result back to Excel.
-Keep each exercise as a separate query where appropriate.
-Do not manually modify the source dataset.
+1. Load Sales_Data into Power Query.
+2. Create a duplicate query or reference query for practice.
+3. Use the appropriate Date, Time or Duration transformation.
+4. Rename columns clearly.
+5. Keep original columns unchanged wherever possible.
+6. Apply transformations in the correct order.
+7. Check data types.
+8. Load final results back into Excel.
+9. Keep exercises in separate queries where appropriate.
+10. Do not manually modify the original source dataset.
 
-Important Dataset Note:
+---
 
-The original Sales_Data dataset may contain only a Date column and may not contain Time, Delivery_Date, Delivery_Time or Duration columns.
+# Power Query Skills Covered
 
-For tasks requiring missing fields, create a separate practice query using Power Query's Enter Data feature or custom columns. Do not modify the original Sales_Data source.
+## Date Transformations
 
-Use proper data types:
+- Year
+- Month
+- Month Name
+- Day
+- Day Name
+- Day of Week
+- Quarter
+- Start of Month
+- End of Month
+- Start of Year
+- Week of Year
 
-Date → Date
-Time → Time
-DateTime → Date/Time
-Duration → Duration
-Year, Month, Day and Hour → Whole Number
-Power Query Skills Covered
+## Date Calculations
 
-Date Transformations
+- Add Days
+- Subtract Days
+- Add Months
+- Add Years
+- Calculate Date Differences
+- Calculate Days Until Month End
 
-Extract Year
-Extract Month
-Month Name
-Extract Day
-Day Name
-Day of Week
-Quarter of Year
-Start of Month
-End of Month
-Start of Year
-Week of Year
+## Time Transformations
 
-Date Calculations
+- Hour
+- Minute
+- Second
+- Start of Hour
+- Start of Minute
+- End of Hour
+- Time Classification
 
-Add Days
-Subtract Days
-Add Months
-Add Years
-Calculate Date Differences
-Calculate Days Until Month End
+## Duration Transformations
 
-Time Transformations
+- Days
+- Hours
+- Minutes
+- Seconds
+- Total Hours
+- Total Minutes
+- Total Seconds
+- Add Durations
 
-Extract Hour
-Extract Minute
-Extract Second
-Start of Hour
-Start of Minute
-End of Hour
-Time Classification
+## Combined Skills
 
-Duration Transformations
+- Date and Time Combination
+- DateTime Creation
+- Duration Calculation
+- Delivery Performance Analysis
+- Order Aging Analysis
+- Monthly Reporting
+- Quarterly Reporting
+- Business Calendar Creation
+- Conditional Columns
+- Business Reporting Preparation
 
-Days
-Hours
-Minutes
-Seconds
-Total Hours
-Total Minutes
-Total Seconds
-Add Durations
+---
 
-Combined Skills
+# Final Objective
 
-Date and Time Combination
-DateTime Creation
-Date Difference Calculation
-Duration Calculation
-Delivery Performance Analysis
-Order Aging Analysis
-Monthly Reporting
-Quarterly Reporting
-Business Calendar Creation
-Conditional Columns
-Business Reporting Preparation
+Develop practical Power Query skills in preparing date-based reports, analyzing delivery timelines, calculating processing durations, and creating business reporting columns.
+
+**Total Practice: 48 Tasks + 7 Advanced Challenges**
+
+**Dataset: Sales_Data (30 Records)**
